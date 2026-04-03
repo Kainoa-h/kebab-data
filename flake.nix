@@ -85,6 +85,8 @@
                   self.formatter.${system}
                   pkgs.gnumake
                   pkgs.ffmpeg
+                  pkgs.nodejs
+                  pkgs.pnpm
                   llama-cpp-custom
                 ];
             }

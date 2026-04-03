@@ -1,0 +1,8178 @@
+[
+  {
+    "alias": "RustyStoat",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyStoat",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyFox",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyMink",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 7,
+    "open_attributions": 5,
+    "closed_attributions": 2
+  },
+  {
+    "alias": "OddStoat",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandBear",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyMink2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietMarten",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightBuffalo",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyMarten",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandGecko",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyJackal",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollySnipe",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyEagle",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidSeal",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightVole",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyBear",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyGoose",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyFinch",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyDrake",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveSwift",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyShark",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyBear",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentJackal2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleNewt2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyDrake",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyDeer",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyLemur",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyGecko2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientBear",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyDeer",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicySwift",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidRobin2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickEagle",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyNewt",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyVole",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 5,
+    "open_attributions": 4,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "RustyBear2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickSeal",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyMink",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenDingo",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftPanda2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyQuail",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenIbis",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddShark",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyMoth",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddDingo",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenMoth",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 5,
+    "open_attributions": 5,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyShark2",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 3,
+    "open_attributions": 2,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "TinyWeasel",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentBison",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 6,
+    "open_attributions": 5,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "MistyShrew",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 4,
+    "open_attributions": 4,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispCrane",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyShrew",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyQuail",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantDeer",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyBear",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 6,
+    "open_attributions": 5,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "RapidBadger",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyPanda3",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightGoose",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceGecko2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyFinch",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveHeron",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "BrightNewt",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyBadger2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyDeer2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentLemur",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleBear",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 1,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "EagerDingo",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudGecko",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispSalamander",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyDeer",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 3,
+    "open_attributions": 3,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveFerret",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenParrot",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelySalamander2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyMarten",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicySnipe",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "SilentSwift",
+    "join_date": "2025-04-23",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyMarten",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleCrane2",
+    "join_date": "2025-04-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyBuffalo",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestEagle",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindMarten",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickMoth",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyFerret",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleHawk",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyKoala",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenOwl",
+    "join_date": "2025-04-24",
+    "join_method": "admin",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyEagle",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandShrew",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyDrake2",
+    "join_date": "2025-04-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickFalcon",
+    "join_date": "2025-04-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySkunk",
+    "join_date": "2025-05-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyDrake",
+    "join_date": "2025-06-17",
+    "join_method": "unknown",
+    "total_attributions": 3,
+    "open_attributions": 3,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudJaguar",
+    "join_date": "2025-06-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindNewt",
+    "join_date": "2025-06-25",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "GentleHeron",
+    "join_date": "2025-06-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftKoala",
+    "join_date": "2025-06-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneCrane",
+    "join_date": "2025-06-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyJackal",
+    "join_date": "2025-07-07",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickFerret2",
+    "join_date": "2025-07-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenHawk",
+    "join_date": "2025-07-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverVole",
+    "join_date": "2025-07-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustySnipe",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyNewt",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenToad2",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleParrot",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustySeal",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmWeasel",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyDrake2",
+    "join_date": "2025-07-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyVole3",
+    "join_date": "2025-08-19",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyDrake",
+    "join_date": "2025-08-20",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenOtter",
+    "join_date": "2025-08-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudHeron",
+    "join_date": "2025-08-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispBuffalo",
+    "join_date": "2025-08-22",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenShark",
+    "join_date": "2025-08-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyDeer",
+    "join_date": "2025-08-22",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyQuail",
+    "join_date": "2025-08-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleStoat2",
+    "join_date": "2025-08-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyDeer",
+    "join_date": "2025-08-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidBison",
+    "join_date": "2025-08-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandFalcon",
+    "join_date": "2025-08-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyIbis2",
+    "join_date": "2025-08-27",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverStoat",
+    "join_date": "2025-08-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddVole",
+    "join_date": "2025-08-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandKoala2",
+    "join_date": "2025-08-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientOkapi",
+    "join_date": "2025-08-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenOkapi",
+    "join_date": "2025-09-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickCrow",
+    "join_date": "2025-09-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyFox",
+    "join_date": "2025-09-03",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FiercePuffin",
+    "join_date": "2025-09-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyCrow2",
+    "join_date": "2025-09-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispJay",
+    "join_date": "2025-09-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverSalamander",
+    "join_date": "2025-09-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddSkunk",
+    "join_date": "2025-09-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleGoose2",
+    "join_date": "2025-09-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyRobin",
+    "join_date": "2025-09-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneNewt",
+    "join_date": "2025-09-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyToad",
+    "join_date": "2025-09-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightToad",
+    "join_date": "2025-09-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickDingo",
+    "join_date": "2025-09-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyFalcon",
+    "join_date": "2025-09-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleSalamander2",
+    "join_date": "2025-09-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyOkapi",
+    "join_date": "2025-09-11",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidCrow2",
+    "join_date": "2025-09-11",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyNewt",
+    "join_date": "2025-09-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyIbis3",
+    "join_date": "2025-09-12",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyKoala",
+    "join_date": "2025-09-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenGoose",
+    "join_date": "2025-09-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyMoose2",
+    "join_date": "2025-09-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindOtter",
+    "join_date": "2025-09-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientFalcon",
+    "join_date": "2025-09-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyBear3",
+    "join_date": "2025-09-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftRobin",
+    "join_date": "2025-09-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyBison",
+    "join_date": "2025-09-18",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyStoat",
+    "join_date": "2025-09-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidKoala",
+    "join_date": "2025-09-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleLemur",
+    "join_date": "2025-09-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidSwift",
+    "join_date": "2025-09-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkBear",
+    "join_date": "2025-09-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffySwift2",
+    "join_date": "2025-09-19",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "SassyFerret",
+    "join_date": "2025-09-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceMoose",
+    "join_date": "2025-09-23",
+    "join_method": "unknown",
+    "total_attributions": 3,
+    "open_attributions": 3,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyMoose",
+    "join_date": "2025-09-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyVole2",
+    "join_date": "2025-09-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenToad",
+    "join_date": "2025-09-24",
+    "join_method": "unknown",
+    "total_attributions": 4,
+    "open_attributions": 4,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandSnipe",
+    "join_date": "2025-09-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyPanda",
+    "join_date": "2025-09-26",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverToad",
+    "join_date": "2025-09-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyHeron",
+    "join_date": "2025-09-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleJackal2",
+    "join_date": "2025-09-28",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 1,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "QuickMarten2",
+    "join_date": "2025-09-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickDrake2",
+    "join_date": "2025-09-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveNewt",
+    "join_date": "2025-09-30",
+    "join_method": "admin",
+    "total_attributions": 3,
+    "open_attributions": 3,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleShark",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyGoose",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickFalcon",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySalamander2",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 4,
+    "open_attributions": 4,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringToad",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyStoat",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceQuail2",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestWeasel",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyCrane",
+    "join_date": "2025-09-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenBison",
+    "join_date": "2025-10-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceStoat",
+    "join_date": "2025-10-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyJay",
+    "join_date": "2025-10-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerSnipe2",
+    "join_date": "2025-10-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightOwl",
+    "join_date": "2025-10-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyToad",
+    "join_date": "2025-10-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispGoose",
+    "join_date": "2025-10-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenFerret2",
+    "join_date": "2025-10-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenIbis",
+    "join_date": "2025-10-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickCrane",
+    "join_date": "2025-10-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyMoose",
+    "join_date": "2025-10-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneOtter",
+    "join_date": "2025-10-06",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceBear",
+    "join_date": "2025-10-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerJackal",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyDingo",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentLynx",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentSnipe",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyIbis",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyJaguar",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneFerret2",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickBuffalo",
+    "join_date": "2025-10-07",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyFox2",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidHeron",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmGoose",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyQuail",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidQuail",
+    "join_date": "2025-10-07",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "LivelyLynx",
+    "join_date": "2025-10-07",
+    "join_method": "admin",
+    "total_attributions": 4,
+    "open_attributions": 4,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyWeasel",
+    "join_date": "2025-10-07",
+    "join_method": "admin",
+    "total_attributions": 7,
+    "open_attributions": 7,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyParrot",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyOkapi",
+    "join_date": "2025-10-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftKoala2",
+    "join_date": "2025-10-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckySalamander",
+    "join_date": "2025-10-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyShark",
+    "join_date": "2025-10-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmOtter",
+    "join_date": "2025-10-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickSkunk",
+    "join_date": "2025-10-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleDrake",
+    "join_date": "2025-10-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyBadger",
+    "join_date": "2025-10-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyPanda",
+    "join_date": "2025-10-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidToad",
+    "join_date": "2025-10-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldLemur",
+    "join_date": "2025-10-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmNewt",
+    "join_date": "2025-10-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyHeron",
+    "join_date": "2025-10-13",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpySeal",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyMarten",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveToad",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindParrot",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietOtter2",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerFinch",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyBadger",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyBuffalo",
+    "join_date": "2025-10-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenJaguar2",
+    "join_date": "2025-10-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveKoala",
+    "join_date": "2025-10-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyGoose",
+    "join_date": "2025-10-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyToad",
+    "join_date": "2025-10-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickRaven2",
+    "join_date": "2025-10-15",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightMoose2",
+    "join_date": "2025-10-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassySalamander",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceLynx",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyFox",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyParrot",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenCrow2",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleBadger3",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyEagle",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "QuickShrew3",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldRobin",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyStoat",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyCrow",
+    "join_date": "2025-10-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyBear",
+    "join_date": "2025-10-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyGecko",
+    "join_date": "2025-10-17",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleSalamander",
+    "join_date": "2025-10-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyJay",
+    "join_date": "2025-10-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyJaguar2",
+    "join_date": "2025-10-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyCrow",
+    "join_date": "2025-10-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyGecko",
+    "join_date": "2025-10-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyIbis",
+    "join_date": "2025-10-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddBison",
+    "join_date": "2025-10-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveFalcon",
+    "join_date": "2025-10-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyMink2",
+    "join_date": "2025-10-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneShark2",
+    "join_date": "2025-10-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyDeer",
+    "join_date": "2025-10-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerLemur",
+    "join_date": "2025-10-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySnipe",
+    "join_date": "2025-10-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyFerret2",
+    "join_date": "2025-10-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftStoat2",
+    "join_date": "2025-10-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkMoth",
+    "join_date": "2025-10-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyFalcon",
+    "join_date": "2025-10-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddStoat2",
+    "join_date": "2025-10-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickShrew",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerStoat",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveNewt2",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantBear",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightySnipe",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietDingo",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkCrane",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringSwift2",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenMoose",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenGecko2",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightShark",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyOkapi2",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceFerret",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmStoat",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientShrew",
+    "join_date": "2025-10-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestRaven",
+    "join_date": "2025-10-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandFox2",
+    "join_date": "2025-10-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidOkapi",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindBuffalo",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddMoth",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientSeal",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceJackal",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidMarten",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringSwift3",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenRaven",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidPuffin",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddIbis2",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantSkunk",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyHeron2",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyParrot",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringSalamander",
+    "join_date": "2025-10-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenSnipe",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenBadger",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldSwift",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyHeron2",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyRobin",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyFerret",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyMink",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyJackal2",
+    "join_date": "2025-10-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyGecko",
+    "join_date": "2025-11-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerRaven",
+    "join_date": "2025-11-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentParrot",
+    "join_date": "2025-11-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyJaguar2",
+    "join_date": "2025-11-02",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispBison",
+    "join_date": "2025-11-03",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyOkapi2",
+    "join_date": "2025-11-03",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyMarten",
+    "join_date": "2025-11-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyEagle2",
+    "join_date": "2025-11-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudPuffin",
+    "join_date": "2025-11-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyGecko",
+    "join_date": "2025-11-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyOwl",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftPanda",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyFinch",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyDingo",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleFerret2",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyNewt",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickDrake2",
+    "join_date": "2025-11-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyBuffalo",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringSwift",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringFerret",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentStoat",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddJaguar",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyGecko",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkFerret",
+    "join_date": "2025-11-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyDingo",
+    "join_date": "2025-11-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelySalamander",
+    "join_date": "2025-11-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepySkunk",
+    "join_date": "2025-11-10",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleFalcon",
+    "join_date": "2025-11-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightMoose",
+    "join_date": "2025-11-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickBuffalo2",
+    "join_date": "2025-11-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantToad",
+    "join_date": "2025-11-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldJay",
+    "join_date": "2025-11-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftCrane",
+    "join_date": "2025-11-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenLynx",
+    "join_date": "2025-11-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftLynx",
+    "join_date": "2025-11-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleCrane",
+    "join_date": "2025-11-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyBear",
+    "join_date": "2025-11-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyJay2",
+    "join_date": "2025-11-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyToad",
+    "join_date": "2025-11-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringQuail",
+    "join_date": "2025-11-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenFerret",
+    "join_date": "2025-11-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietVole",
+    "join_date": "2025-11-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientSnipe",
+    "join_date": "2025-11-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyJay",
+    "join_date": "2025-11-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickMoth2",
+    "join_date": "2025-11-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudRaven",
+    "join_date": "2025-11-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentSkunk",
+    "join_date": "2025-11-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceLynx2",
+    "join_date": "2025-11-19",
+    "join_method": "admin",
+    "total_attributions": 3,
+    "open_attributions": 3,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerOtter",
+    "join_date": "2025-11-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidVole",
+    "join_date": "2025-11-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerJackal2",
+    "join_date": "2025-11-20",
+    "join_method": "admin",
+    "total_attributions": 5,
+    "open_attributions": 5,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftCrow",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyMink3",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftJay2",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceBuffalo",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietLemur",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenRaven",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyGoose",
+    "join_date": "2025-11-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenGecko",
+    "join_date": "2025-11-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveCrow",
+    "join_date": "2025-11-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispBuffalo2",
+    "join_date": "2025-11-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyEagle",
+    "join_date": "2025-11-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringQuail2",
+    "join_date": "2025-11-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudLynx",
+    "join_date": "2025-11-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelySeal",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientMoth",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyDeer2",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyShrew",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyHawk",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySalamander3",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollySkunk",
+    "join_date": "2025-11-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyOkapi",
+    "join_date": "2025-11-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmRaven",
+    "join_date": "2025-11-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyStoat",
+    "join_date": "2025-11-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerShrew",
+    "join_date": "2025-11-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickMink",
+    "join_date": "2025-11-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverToad2",
+    "join_date": "2025-12-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyFinch",
+    "join_date": "2025-12-03",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerPanda",
+    "join_date": "2025-12-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyDeer",
+    "join_date": "2025-12-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenGoose",
+    "join_date": "2025-12-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickVole",
+    "join_date": "2025-12-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestLynx",
+    "join_date": "2025-12-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenSalamander",
+    "join_date": "2025-12-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenMoose2",
+    "join_date": "2025-12-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyHawk",
+    "join_date": "2025-12-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneMoth",
+    "join_date": "2026-01-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldQuail",
+    "join_date": "2026-01-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldBear",
+    "join_date": "2026-01-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyCrane",
+    "join_date": "2026-01-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceFinch",
+    "join_date": "2026-01-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleSkunk",
+    "join_date": "2026-01-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddWeasel",
+    "join_date": "2026-01-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyPuffin",
+    "join_date": "2026-01-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietShark",
+    "join_date": "2026-01-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandKoala",
+    "join_date": "2026-01-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyJay",
+    "join_date": "2026-01-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyPanda",
+    "join_date": "2026-01-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveBear2",
+    "join_date": "2026-01-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenPanda",
+    "join_date": "2026-01-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyMarten",
+    "join_date": "2026-01-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyJaguar",
+    "join_date": "2026-01-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidDeer",
+    "join_date": "2026-01-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickOtter2",
+    "join_date": "2026-01-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyMoose2",
+    "join_date": "2026-01-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyFalcon",
+    "join_date": "2026-01-19",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyLynx",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenJaguar",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyDrake",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidPanda",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyToad",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleBadger2",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispSeal",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddKoala",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindKoala",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickMoth",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickBuffalo",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyCrow",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyLynx",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FiercePuffin2",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlySnipe",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientQuail",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyFinch2",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightDeer2",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverShrew",
+    "join_date": "2026-01-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinySwift",
+    "join_date": "2026-01-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyBuffalo2",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyBison",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenBadger",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispShrew",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySnipe2",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringPuffin2",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidParrot",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyFalcon",
+    "join_date": "2026-01-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkRaven",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffySwift",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneFox",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringBuffalo2",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyOtter",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantSnipe",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldSnipe2",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyWeasel2",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyOkapi",
+    "join_date": "2026-01-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightSwift",
+    "join_date": "2026-01-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleRobin",
+    "join_date": "2026-01-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldFerret",
+    "join_date": "2026-01-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyIbis",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyJackal",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyWeasel",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneJay2",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyKoala",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 4,
+    "open_attributions": 4,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleLemur",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverJackal",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyFinch",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkSalamander",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyPanda",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyBuffalo",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantVole",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleNewt",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenToad3",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldBadger",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverBadger",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyDrake",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftIbis",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyJaguar",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverHeron",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelySkunk",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenShark",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenFox",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleKoala",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickJaguar",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddOtter",
+    "join_date": "2026-01-27",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyHawk2",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftStoat",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenRobin",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickPanda",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickFox",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightySwift",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyBadger2",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenSwift",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindShrew",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyJay",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyOwl",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispToad",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispGecko",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckySalamander",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyRaven",
+    "join_date": "2026-01-27",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickCrow",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispMarten",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyJaguar",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenSwift",
+    "join_date": "2026-01-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftShrew",
+    "join_date": "2026-01-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyDingo",
+    "join_date": "2026-01-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkCrow",
+    "join_date": "2026-01-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientLemur",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightOtter",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveCrow2",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyOkapi",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantJackal",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyShrew2",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyFox2",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenDrake",
+    "join_date": "2026-01-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyVole",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleDingo",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyPanda2",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleJay",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyStoat",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleCrane",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddFox",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyRaven",
+    "join_date": "2026-01-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudSalamander",
+    "join_date": "2026-01-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickShrew2",
+    "join_date": "2026-01-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyLynx",
+    "join_date": "2026-02-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyBadger",
+    "join_date": "2026-02-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyMarten2",
+    "join_date": "2026-02-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispSwift",
+    "join_date": "2026-02-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyOtter2",
+    "join_date": "2026-02-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyJaguar2",
+    "join_date": "2026-02-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyOkapi",
+    "join_date": "2026-02-03",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyShark",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyJay",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispLynx",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldIbis",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftBear",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyNewt",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightBuffalo2",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleStoat",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerEagle",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentOkapi",
+    "join_date": "2026-02-04",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientPanda",
+    "join_date": "2026-02-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantParrot",
+    "join_date": "2026-02-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietJaguar",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleDrake",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveBadger",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindOwl",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenCrow",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelySeal",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickOtter2",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientKoala",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleOtter",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyRaven",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyRobin",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickEagle3",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyRobin",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientBuffalo",
+    "join_date": "2026-02-06",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenWeasel",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkMoth2",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyPanda",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenSkunk",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenPanda",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyRaven",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftMarten",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyQuail2",
+    "join_date": "2026-02-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldFalcon",
+    "join_date": "2026-02-08",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneCrow",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyNewt",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkMoth3",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyPanda",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyQuail2",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantDingo",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandPanda",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickShrew4",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftJay3",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestJaguar",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleCrane",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyParrot",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyShark",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickLynx2",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentBadger",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyCrane2",
+    "join_date": "2026-02-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudSalamander2",
+    "join_date": "2026-02-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddIbis",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverIbis",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudStoat",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispEagle",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyCrane",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantQuail",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneFerret",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinySwift",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyShrew",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveSalamander",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmToad",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyRobin",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenCrow3",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyFerret",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyPanda",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispStoat",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyFalcon2",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverMink",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyDingo",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringQuail3",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyQuail",
+    "join_date": "2026-02-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyMink",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleBadger",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickShrew2",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidSeal2",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantJaguar",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantRaven",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyKoala",
+    "join_date": "2026-02-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleJackal",
+    "join_date": "2026-02-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyFox",
+    "join_date": "2026-02-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyJay2",
+    "join_date": "2026-02-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudQuail",
+    "join_date": "2026-02-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldRaven",
+    "join_date": "2026-02-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyQuail",
+    "join_date": "2026-02-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddDeer",
+    "join_date": "2026-02-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyOtter",
+    "join_date": "2026-02-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyCrane",
+    "join_date": "2026-02-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidJay",
+    "join_date": "2026-02-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyNewt2",
+    "join_date": "2026-02-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftSnipe",
+    "join_date": "2026-02-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyDrake2",
+    "join_date": "2026-02-20",
+    "join_method": "unknown",
+    "total_attributions": 5,
+    "open_attributions": 3,
+    "closed_attributions": 2
+  },
+  {
+    "alias": "BoldBear2",
+    "join_date": "2026-02-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidCrow",
+    "join_date": "2026-02-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyEagle",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietPanda",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyOtter",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyDeer2",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerFerret",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenFox2",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkOkapi",
+    "join_date": "2026-02-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandJay",
+    "join_date": "2026-02-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyGoose",
+    "join_date": "2026-02-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidSkunk",
+    "join_date": "2026-02-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringSeal",
+    "join_date": "2026-02-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantShrew",
+    "join_date": "2026-02-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceNewt",
+    "join_date": "2026-02-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispMoose",
+    "join_date": "2026-02-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringIbis",
+    "join_date": "2026-02-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyGoose2",
+    "join_date": "2026-02-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceMink",
+    "join_date": "2026-02-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyToad2",
+    "join_date": "2026-02-26",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispSnipe",
+    "join_date": "2026-02-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyFinch2",
+    "join_date": "2026-02-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleIbis",
+    "join_date": "2026-02-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyNewt",
+    "join_date": "2026-02-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyCrow",
+    "join_date": "2026-02-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyHeron",
+    "join_date": "2026-03-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyPanda2",
+    "join_date": "2026-03-01",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickDrake",
+    "join_date": "2026-03-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddPuffin",
+    "join_date": "2026-03-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyGecko",
+    "join_date": "2026-03-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveNewt3",
+    "join_date": "2026-03-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleMoose",
+    "join_date": "2026-03-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightOwl2",
+    "join_date": "2026-03-03",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentOwl",
+    "join_date": "2026-03-03",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftIbis2",
+    "join_date": "2026-03-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyDrake",
+    "join_date": "2026-03-04",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientLynx",
+    "join_date": "2026-03-05",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyMoose",
+    "join_date": "2026-03-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyLynx",
+    "join_date": "2026-03-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickShrew5",
+    "join_date": "2026-03-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyMoth",
+    "join_date": "2026-03-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindDeer",
+    "join_date": "2026-03-08",
+    "join_method": "unknown",
+    "total_attributions": 3,
+    "open_attributions": 2,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "JollyEagle",
+    "join_date": "2026-03-09",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyBear",
+    "join_date": "2026-03-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyVole",
+    "join_date": "2026-03-10",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyParrot2",
+    "join_date": "2026-03-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyToad",
+    "join_date": "2026-03-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantLynx",
+    "join_date": "2026-03-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidShrew",
+    "join_date": "2026-03-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickSwift",
+    "join_date": "2026-03-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyMink",
+    "join_date": "2026-03-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyRobin",
+    "join_date": "2026-03-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddBear",
+    "join_date": "2026-03-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyCrow",
+    "join_date": "2026-03-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyOtter",
+    "join_date": "2026-03-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftFalcon",
+    "join_date": "2026-03-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkToad",
+    "join_date": "2026-03-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyToad",
+    "join_date": "2026-03-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindSeal",
+    "join_date": "2026-03-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringOwl",
+    "join_date": "2026-03-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindMoose",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkFalcon",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyPuffin",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyDingo",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickHawk",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickOtter",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddBison2",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneEagle",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyQuail",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandBear2",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyBison",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffySnipe",
+    "join_date": "2026-03-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleShark",
+    "join_date": "2026-03-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveJay",
+    "join_date": "2026-03-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveKoala2",
+    "join_date": "2026-03-14",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyOtter",
+    "join_date": "2026-03-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyJaguar",
+    "join_date": "2026-03-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenSeal",
+    "join_date": "2026-03-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyDeer",
+    "join_date": "2026-03-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceShark",
+    "join_date": "2026-03-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyBear2",
+    "join_date": "2026-03-15",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyHawk",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyFalcon",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverOwl",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispPuffin",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyGoose",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyPuffin",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenCrow",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddWeasel2",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenShrew",
+    "join_date": "2026-03-16",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerBuffalo",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyBadger",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyJackal",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenFox",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyJay",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustySalamander",
+    "join_date": "2026-03-17",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentSalamander",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceJaguar",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidRobin",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyIbis2",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyBuffalo",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceMoth",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyShrew",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveNewt4",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftCrow2",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyCrow",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindCrow2",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringMarten",
+    "join_date": "2026-03-17",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyOkapi",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickBison",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftRaven",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceDrake",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenJay",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyIbis",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyCrow",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightEagle",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneMoth2",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyCrow",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickStoat",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyShark",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudNewt",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickSalamander",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceDingo",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandPanda2",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyNewt2",
+    "join_date": "2026-03-18",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidHawk",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddBadger",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelySalamander",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyJaguar",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyDrake",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandNewt",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyOtter",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickOtter",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightDeer",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindPuffin",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyRaven",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyFinch",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyDrake",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneSeal",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyJackal2",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverFox",
+    "join_date": "2026-03-19",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietShrew",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenBear",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickShrew",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenBear",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 3,
+    "open_attributions": 3,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyJackal",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyDeer",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddQuail",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyJaguar",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkBison",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenHawk",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyLemur",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyRaven",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantKoala",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidLynx",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyFinch2",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveCrane",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkDrake",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidGecko",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyNewt2",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceBadger",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyShrew",
+    "join_date": "2026-03-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkPanda",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringBison",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyFox",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddLynx",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkBear2",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyRobin",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyParrot",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenLynx",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckySalamander2",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientKoala2",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyGecko2",
+    "join_date": "2026-03-21",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickDrake",
+    "join_date": "2026-03-22",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindDingo",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringPuffin",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneJay",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringBuffalo",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleBadger",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldSnipe",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispFox",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietFinch",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveLemur",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindVole",
+    "join_date": "2026-03-23",
+    "join_method": "admin",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveJaguar",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyIbis",
+    "join_date": "2026-03-23",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenJackal",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyCrow",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleLynx",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightToad2",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickDeer",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidFalcon",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldSkunk",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestDingo",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringEagle",
+    "join_date": "2026-03-23",
+    "join_method": "admin",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyGoose",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyPuffin",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "TinyBison2",
+    "join_date": "2026-03-23",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindHeron",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyLynx",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyRobin",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudEagle",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyMarten",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandCrane",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickShark2",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 0,
+    "closed_attributions": 1
+  },
+  {
+    "alias": "CrispVole",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietOtter",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyToad",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindEagle",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickSwift2",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyToad",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyOwl",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyPanda2",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyShark",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudOwl",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyGoose",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddMoose",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandWeasel",
+    "join_date": "2026-03-24",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickPuffin",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickLynx",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustySeal",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyShrew",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancySnipe",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleFerret",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftJay",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyHeron",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenGoose",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyRobin",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenGecko",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyHawk",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerNewt",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudJay",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerGecko",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantDrake",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyMoth",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyBison",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyFox",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleParrot2",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyFinch",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickMarten",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 1,
+    "open_attributions": 1,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyLynx",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyCrow",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelySwift2",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneSalamander",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftIbis3",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkFox",
+    "join_date": "2026-03-25",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleSalamander",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientOwl",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LivelyPanda",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindCrow",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyFinch",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceQuail",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldToad2",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentGoose",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyDingo2",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySwift",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyOwl",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudSkunk",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkMarten",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceVole",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistySnipe",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyRaven",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantGecko",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyMink",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickLynx",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldOkapi",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverDingo",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleSkunk2",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyStoat",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyDeer3",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringParrot",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantDrake3",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustySwift",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientJaguar",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickToad2",
+    "join_date": "2026-03-26",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandFox",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyJackal",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyFox",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappySalamander",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietQuail",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RustyJay",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickRaven",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceGecko",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringBison2",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestQuail",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleFinch",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleGoose",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentJackal",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyMink",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmShrew",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyCrane2",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleFox",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringNewt",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenHeron",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyBuffalo3",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleRaven",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlySalamander",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispShrew2",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenEagle",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FluffyKoala",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveShrew",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightMarten",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkEagle",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MightyJackal",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidHeron2",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SlickEagle2",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmOwl",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SwiftEagle",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleGoose",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyCrane",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentCrane",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickToad",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietQuail2",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightLynx",
+    "join_date": "2026-03-27",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DarkShrew",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldToad",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldPuffin",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyOwl",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleBuffalo",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyToad",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyJaguar",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ModestShark",
+    "join_date": "2026-03-28",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrumpyDingo",
+    "join_date": "2026-03-29",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneShark",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyOkapi",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddRobin",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FierceGoose",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickShark",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyFox",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerSnipe",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CleverBear",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyBear",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SereneQuail",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyKoala",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleDrake2",
+    "join_date": "2026-03-30",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyPuffin",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudOkapi",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyPanda",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "NobleIbis",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyCrow",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BoldVole",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantSwift",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientSnipe2",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HiddenMarten",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SpicyPanda",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyNewt",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "OddHeron",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HumbleSwift",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistySwift",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "HappyMink",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyMoose",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyGecko2",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmPuffin",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyRobin2",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyPanda",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyHawk",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyPuffin",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyOkapi",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckyIbis2",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "FancyVole4",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "MistyPuffin",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyNewt",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyHawk",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CalmKoala",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudLemur",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyShrew",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "AncientBison",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "PluckyFalcon",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "CrispKoala",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DustyIbis",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KindBuffalo2",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandFalcon2",
+    "join_date": "2026-03-31",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyMoose",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckySkunk",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "KeenQuail",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BraveBear",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GentleSalamander",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuickFerret",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandMoose",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GoldenBuffalo",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentCrow",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "TinyHeron",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "JollyMarten2",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "IcyParrot",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "RapidToad2",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EarlyWeasel3",
+    "join_date": "2026-04-01",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelyMoose",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LuckySeal",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ProudDeer",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SilentBear",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SassyJaguar",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "DaringRaven",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepyEagle2",
+    "join_date": "2026-04-02",
+    "join_method": "invite_link",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "BrightFinch",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "LonelySwift",
+    "join_date": "2026-04-02",
+    "join_method": "invite_link",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "EagerJaguar",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GiantDrake2",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "ShinyIbis",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "GrandIbis",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "SleepySwift",
+    "join_date": "2026-04-02",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0
+  },
+  {
+    "alias": "QuietRobin",
+    "join_date": null,
+    "join_method": "creator",
+    "total_attributions": 15,
+    "open_attributions": 13,
+    "closed_attributions": 2
+  },
+  {
+    "alias": "SassyOwl2",
+    "join_date": null,
+    "join_method": null,
+    "total_attributions": 2,
+    "open_attributions": 2,
+    "closed_attributions": 0
+  }
+]

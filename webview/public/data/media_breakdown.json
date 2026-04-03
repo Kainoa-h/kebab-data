@@ -1,0 +1,27 @@
+[
+  {
+    "type": "text",
+    "total": 1644,
+    "attributed": 10
+  },
+  {
+    "type": "photo",
+    "total": 118,
+    "attributed": 97
+  },
+  {
+    "type": "video_note",
+    "total": 92,
+    "attributed": 84
+  },
+  {
+    "type": "sticker",
+    "total": 66,
+    "attributed": 0
+  },
+  {
+    "type": "video",
+    "total": 30,
+    "attributed": 0
+  }
+]

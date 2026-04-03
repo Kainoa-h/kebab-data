@@ -1,0 +1,132 @@
+[
+  {
+    "month": "2025-04",
+    "new_members": 91,
+    "total_messages": 29,
+    "attributed_messages": 3,
+    "open_days": 3,
+    "closed_days": 0,
+    "unknown_days": 5,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2025-05",
+    "new_members": 1,
+    "total_messages": 14,
+    "attributed_messages": 5,
+    "open_days": 3,
+    "closed_days": 1,
+    "unknown_days": 27,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2025-06",
+    "new_members": 6,
+    "total_messages": 18,
+    "attributed_messages": 2,
+    "open_days": 1,
+    "closed_days": 1,
+    "unknown_days": 28,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2025-07",
+    "new_members": 11,
+    "total_messages": 26,
+    "attributed_messages": 5,
+    "open_days": 3,
+    "closed_days": 1,
+    "unknown_days": 27,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2025-08",
+    "new_members": 17,
+    "total_messages": 52,
+    "attributed_messages": 13,
+    "open_days": 8,
+    "closed_days": 0,
+    "unknown_days": 22,
+    "conflicted_days": 1
+  },
+  {
+    "month": "2025-09",
+    "new_members": 56,
+    "total_messages": 92,
+    "attributed_messages": 18,
+    "open_days": 13,
+    "closed_days": 1,
+    "unknown_days": 16,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2025-10",
+    "new_members": 126,
+    "total_messages": 262,
+    "attributed_messages": 27,
+    "open_days": 19,
+    "closed_days": 1,
+    "unknown_days": 11,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2025-11",
+    "new_members": 76,
+    "total_messages": 217,
+    "attributed_messages": 36,
+    "open_days": 18,
+    "closed_days": 2,
+    "unknown_days": 9,
+    "conflicted_days": 1
+  },
+  {
+    "month": "2025-12",
+    "new_members": 10,
+    "total_messages": 25,
+    "attributed_messages": 5,
+    "open_days": 3,
+    "closed_days": 2,
+    "unknown_days": 26,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2026-01",
+    "new_members": 126,
+    "total_messages": 273,
+    "attributed_messages": 20,
+    "open_days": 11,
+    "closed_days": 4,
+    "unknown_days": 16,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2026-02",
+    "new_members": 125,
+    "total_messages": 280,
+    "attributed_messages": 22,
+    "open_days": 12,
+    "closed_days": 1,
+    "unknown_days": 15,
+    "conflicted_days": 0
+  },
+  {
+    "month": "2026-03",
+    "new_members": 347,
+    "total_messages": 593,
+    "attributed_messages": 31,
+    "open_days": 16,
+    "closed_days": 3,
+    "unknown_days": 11,
+    "conflicted_days": 1
+  },
+  {
+    "month": "2026-04",
+    "new_members": 29,
+    "total_messages": 69,
+    "attributed_messages": 4,
+    "open_days": 1,
+    "closed_days": 0,
+    "unknown_days": 0,
+    "conflicted_days": 1
+  }
+]

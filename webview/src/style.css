@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --color-open: #22c55e;
+  --color-closed: #ef4444;
+  --color-conflicted: #eab308;
+  --color-unknown: #6b7280;
+}
+
+.card {
+  @apply bg-gray-900 rounded-xl p-6 shadow-lg;
+}
+
+/* cal-heatmap dark overrides */
+.ch-domain-text { fill: #9ca3af; }
+.ch-subdomain-bg { fill: #1f2937; }

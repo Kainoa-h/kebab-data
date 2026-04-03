@@ -1,0 +1,160 @@
+{
+  "2026-01-01": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-02": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-03": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-04": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-05": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-06": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-07": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-08": {
+    "status": "closed",
+    "contributors": [
+      "QuietRobin"
+    ]
+  },
+  "2026-01-09": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-10": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-11": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-12": {
+    "status": "closed",
+    "contributors": [
+      "QuietRobin"
+    ]
+  },
+  "2026-01-13": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-14": {
+    "status": "closed",
+    "contributors": [
+      "SilentBison"
+    ]
+  },
+  "2026-01-15": {
+    "status": "open",
+    "contributors": [
+      "HiddenIbis"
+    ]
+  },
+  "2026-01-16": {
+    "status": "open",
+    "contributors": [
+      "HiddenMoth",
+      "QuietRobin"
+    ]
+  },
+  "2026-01-17": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-18": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-19": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-20": {
+    "status": "closed",
+    "contributors": [
+      "LonelyBear"
+    ]
+  },
+  "2026-01-21": {
+    "status": "open",
+    "contributors": [
+      "BrightBuffalo",
+      "SassyHeron"
+    ]
+  },
+  "2026-01-22": {
+    "status": "open",
+    "contributors": [
+      "KeenBadger"
+    ]
+  },
+  "2026-01-23": {
+    "status": "open",
+    "contributors": [
+      "EagerJackal2",
+      "KeenToad"
+    ]
+  },
+  "2026-01-24": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-25": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-01-26": {
+    "status": "open",
+    "contributors": [
+      "LonelyWeasel"
+    ]
+  },
+  "2026-01-27": {
+    "status": "open",
+    "contributors": [
+      "SilentBison"
+    ]
+  },
+  "2026-01-28": {
+    "status": "open",
+    "contributors": [
+      "HappySalamander2"
+    ]
+  },
+  "2026-01-29": {
+    "status": "open",
+    "contributors": [
+      "KeenBadger",
+      "LonelyWeasel"
+    ]
+  },
+  "2026-01-30": {
+    "status": "open",
+    "contributors": [
+      "GrandBear"
+    ]
+  },
+  "2026-01-31": {
+    "status": "open",
+    "contributors": [
+      "LonelyBear"
+    ]
+  }
+}

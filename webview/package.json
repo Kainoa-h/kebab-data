@@ -1,0 +1,25 @@
+{
+  "name": "webview",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "copy-data": "rm -rf public/data && mkdir -p public/data && cp -r ../processed/web_data/* public/data/ && rm -f public/data/anon_map.json",
+    "predev": "npm run copy-data",
+    "prebuild": "npm run copy-data"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@tailwindcss/vite": "^4.2.2",
+    "cal-heatmap": "^4.2.4",
+    "chart.js": "^4.5.1",
+    "tailwindcss": "^4.2.2"
+  }
+}
