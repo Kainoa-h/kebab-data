@@ -1,11 +1,17 @@
 {
-  description = "A Nix-flake-based Python development environment";
+  description = "A Nix-flake-based Python development environment for RDNA 4";
 
-  inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1"; # unstable Nixpkgs
+  nixConfig = {
+    extra-substituters = [ "https://llama-cpp.cachix.org" ];
+    extra-trusted-public-keys = [
+      "llama-cpp.cachix.org-1:H75X+w83wUKTIPSO1KWy9ADUrzThyGs8P5tmAbkWhQc="
+    ];
+  };
+
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
   outputs =
-    { self, ... }@inputs:
-
+    { self, nixpkgs, ... }@inputs:
     let
       supportedSystems = [
         "x86_64-linux"
@@ -13,88 +19,87 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
+
       forEachSupportedSystem =
         f:
-        inputs.nixpkgs.lib.genAttrs supportedSystems (
+        nixpkgs.lib.genAttrs supportedSystems (
           system:
           f {
             inherit system;
-            pkgs = import inputs.nixpkgs { inherit system; };
+            pkgs = import nixpkgs {
+              inherit system;
+              config = {
+                allowUnfree = true;
+                # Globally set the ROCm target so any compiled ROCm packages only build for your card
+                rocmTargets = [ "gfx1201" ];
+              };
+            };
           }
         );
 
-      /*
-        Change this value ({major}.{min}) to
-        update the Python virtual-environment
-        version. When you do this, make sure
-        to delete the `.venv` directory to
-        have the hook rebuild it for the new
-        version, since it won't overwrite an
-        existing one. After this, reload the
-        development shell to rebuild it.
-        You'll see a warning asking you to
-        do this when version mismatches are
-        present. For safety, removal should
-        be a manual step, even if trivial.
-      */
       version = "3.13";
     in
     {
       devShells = forEachSupportedSystem (
         { pkgs, system }:
         let
-          concatMajorMinor =
-            v:
-            pkgs.lib.pipe v [
-              pkgs.lib.versions.splitVersion
-              (pkgs.lib.sublist 0 2)
-              pkgs.lib.concatStrings
-            ];
+          python = pkgs."python${nixpkgs.lib.replaceStrings [ "." ] [ "" ] version}";
+          isLinux = pkgs.lib.hasSuffix "-linux" system;
 
-          python = pkgs."python${concatMajorMinor version}";
+          # Dynamically choose llama-cpp based on OS to prevent Darwin evaluation crashes
+          llama-cpp-custom =
+            if isLinux then
+              (pkgs.llama-cpp.override { rocmSupport = true; }).overrideAttrs (old: {
+                # Force CMake to only build for RDNA4 to save compile time if not cached
+                cmakeFlags = (old.cmakeFlags or [ ]) ++ [ "-DAMDGPU_TARGETS=gfx1201" ];
+              })
+            else
+              pkgs.llama-cpp; # Fallback for Darwin/Mac (uses Metal)
         in
         {
-          default = pkgs.mkShellNoCC {
-            venvDir = ".venv";
+          default = pkgs.mkShellNoCC (
+            {
+              venvDir = ".venv";
 
-            postShellHook = ''
-              venvVersionWarn() {
-              	local venvVersion
-              	venvVersion="$("$venvDir/bin/python" -c 'import platform; print(platform.python_version())')"
+              postShellHook = ''
+                venvVersionWarn() {
+                  local venvVersion
+                  if [ -f "$venvDir/bin/python" ]; then
+                    venvVersion="$("$venvDir/bin/python" -c 'import platform; print(platform.python_version())')"
+                    [[ "$venvVersion" == "${python.version}" ]] && return
+                    echo "Warning: Python version mismatch: [$venvVersion (venv)] != [${python.version}]"
+                    echo "Delete '$venvDir' and reload to rebuild for version ${python.version}"
+                  fi
+                }
+                venvVersionWarn
+              '';
 
-              	[[ "$venvVersion" == "${python.version}" ]] && return
-
-              	cat <<EOF
-              Warning: Python version mismatch: [$venvVersion (venv)] != [${python.version}]
-                       Delete '$venvDir' and reload to rebuild for version ${python.version}
-              EOF
-              }
-
-              venvVersionWarn
-            '';
-
-            packages =
-              (with python.pkgs; [
-                venvShellHook
-                pip
-                uv
-
-                # Add whatever else you'd like here.
-                # pkgs.basedpyright
-
-                # pkgs.black
-                # or
-                # python.pkgs.black
-
-                # pkgs.ruff
-                # or
-                # python.pkgs.ruff
-              ])
-              ++ [ self.formatter.${system} ];
-          };
+              packages =
+                (with python.pkgs; [
+                  venvShellHook
+                  pip
+                  uv
+                  huggingface-hub
+                ])
+                ++ [
+                  self.formatter.${system}
+                  pkgs.gnumake
+                  llama-cpp-custom
+                ];
+            }
+            // pkgs.lib.optionalAttrs isLinux {
+              # Inject RDNA 4 optimizations only if on Linux
+              HSA_OVERRIDE_GFX_VERSION = "12.0.1";
+              GGML_HIP_GRAPHS = "1";
+              # Restrict ROCm to the discrete GPU only (Device 0: RX 9060 XT).
+              # Without this, the iGPU is also enumerated and HSA_OVERRIDE_GFX_VERSION
+              # misidentifies it as gfx1201, causing a GPU memory fault on launch.
+              HIP_VISIBLE_DEVICES = "0";
+            }
+          );
         }
       );
 
-      formatter = forEachSupportedSystem ({ pkgs, ... }: pkgs.nixfmt);
+      formatter = forEachSupportedSystem ({ pkgs, ... }: pkgs.nixfmt-rfc-style);
     };
 }

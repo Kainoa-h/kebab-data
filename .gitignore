@@ -3,3 +3,4 @@
 .env
 *.session
 *.session-journal
+/llms/Qwen3.5-9B-Q4_K_M.gguf
