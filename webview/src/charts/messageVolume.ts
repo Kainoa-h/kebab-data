@@ -2,7 +2,7 @@ import { Chart } from 'chart.js/auto';
 import type { MessageVolume } from '../types';
 
 export function renderMessageVolume(canvas: HTMLCanvasElement, data: MessageVolume[]) {
-  // Aggregate daily→monthly
+  // Aggregate daily → monthly
   const monthlyData = data.reduce((acc, row) => {
     const month = row.date.substring(0, 7); // YYYY-MM
     if (!acc[month]) {
@@ -14,26 +14,34 @@ export function renderMessageVolume(canvas: HTMLCanvasElement, data: MessageVolu
   }, {} as Record<string, { total: number, attributed: number }>);
 
   const labels = Object.keys(monthlyData).sort();
-  const totals = labels.map(l => monthlyData[l].total);
   const attributed = labels.map(l => monthlyData[l].attributed);
+  const unattributed = labels.map(l => monthlyData[l].total - monthlyData[l].attributed);
 
   new Chart(canvas, {
     type: 'bar',
     data: {
       labels,
       datasets: [
-        { label: 'Total Messages', data: totals, backgroundColor: '#6b7280' },
-        { label: 'Attributed Messages', data: attributed, backgroundColor: '#10b981' }
+        { label: 'Attributed', data: attributed, backgroundColor: '#10b981', stack: 'vol' },
+        { label: 'Unattributed', data: unattributed, backgroundColor: '#6b7280', stack: 'vol' }
       ]
     },
     options: {
       color: '#e5e7eb',
       scales: {
-        x: { grid: { color: '#374151' } },
-        y: { grid: { color: '#374151' } }
+        x: { stacked: true, grid: { color: '#374151' }, ticks: { color: '#9ca3af' } },
+        y: { stacked: true, grid: { color: '#374151' }, ticks: { color: '#9ca3af' } }
       },
       plugins: {
-        tooltip: { backgroundColor: '#1f2937' },
+        tooltip: {
+          backgroundColor: '#1f2937',
+          callbacks: {
+            footer: (items) => {
+              const total = items.reduce((sum, i) => sum + (i.parsed.y ?? 0), 0);
+              return `Total: ${total}`;
+            }
+          }
+        },
         legend: { labels: { color: '#e5e7eb' } }
       }
     }

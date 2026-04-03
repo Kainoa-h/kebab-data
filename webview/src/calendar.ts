@@ -6,41 +6,57 @@ import 'cal-heatmap/cal-heatmap.css';
 import type { CalendarData, DayStatus } from './types';
 import { STATUS_COLORS } from './types';
 
+const COLOR_NO_DATA = '#1e293b';
+
 export function renderCalendarHeatmap(containerSelector: string, calendarData: CalendarData) {
   const start = new Date('2025-04-01');
   const end = new Date('2026-04-30');
-  
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
   const data: Array<{
     date: string;
     value: number;
     status: DayStatus;
     contributors: string[];
     isDefaultSunday?: boolean;
+    isOutOfRange?: boolean;
   }> = [];
 
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
     const dateStr = d.toISOString().split('T')[0];
     const record = calendarData[dateStr];
-    
+    const isFuture = d > today;
+
     let status: DayStatus = record?.status || 'unknown';
     let isDefaultSunday = false;
-    
+
     if (status === 'unknown' && d.getDay() === 0) {
       status = 'closed';
       isDefaultSunday = true;
     }
 
-    let value = 0;
-    if (status === 'open') value = 1;
-    else if (status === 'closed') value = 2;
-    else if (status === 'conflicted') value = 3;
+    // value: 0=unknown(no reports), 1=open, 2=closed, 3=conflicted, 4=out of range
+    let value: number;
+    if (isFuture) {
+      value = 4;
+    } else if (status === 'open') {
+      value = 1;
+    } else if (status === 'closed') {
+      value = 2;
+    } else if (status === 'conflicted') {
+      value = 3;
+    } else {
+      value = 0;
+    }
 
     data.push({
       date: dateStr,
       value,
       status,
       contributors: record?.contributors || [],
-      isDefaultSunday
+      isDefaultSunday,
+      isOutOfRange: isFuture
     });
   }
 
@@ -61,8 +77,14 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
     scale: {
       color: {
         type: 'ordinal',
-        domain: [0, 1, 2, 3],
-        range: [STATUS_COLORS.unknown, STATUS_COLORS.open, STATUS_COLORS.closed, STATUS_COLORS.conflicted]
+        domain: [0, 1, 2, 3, 4],
+        range: [
+          STATUS_COLORS.unknown,    // 0 = unknown (no reports)
+          STATUS_COLORS.open,       // 1 = open
+          STATUS_COLORS.closed,     // 2 = closed
+          STATUS_COLORS.conflicted, // 3 = conflicted
+          COLOR_NO_DATA             // 4 = future / outside data range
+        ]
       }
     }
   }, [
@@ -72,16 +94,22 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
         text: function (_timestamp: number, _value: number, dayjsDate: any) {
           const dateStr = dayjsDate.format('YYYY-MM-DD');
           const record = dataMap.get(dateStr);
-          
+
           if (!record) {
             return `${dateStr}: Unknown`;
           }
 
+          if (record.isOutOfRange) {
+            return `${dateStr}: Future / no data`;
+          }
+
           let label = record.status.charAt(0).toUpperCase() + record.status.slice(1);
           if (record.isDefaultSunday) {
-            label += ' (Default)';
+            label += ' (Default — always closed on Sundays)';
           } else if (record.contributors && record.contributors.length > 0) {
-            label += ` - Reported by: ${record.contributors.join(', ')}`;
+            label += ` — reported by: ${record.contributors.join(', ')}`;
+          } else if (record.status === 'unknown') {
+            label += ' (no reports)';
           }
 
           return `${dateStr}: ${label}`;

@@ -5,10 +5,28 @@
   --color-closed: #ef4444;
   --color-conflicted: #eab308;
   --color-unknown: #6b7280;
+  --color-no-data: #1e293b;
+  --color-kebab: #f97316;
 }
 
 .card {
-  @apply bg-gray-900 rounded-xl p-6 shadow-lg;
+  @apply bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-800 transition-all duration-200;
+}
+
+.card:hover {
+  @apply border-orange-900/50 shadow-orange-950/30;
+  box-shadow: 0 4px 24px 0 rgba(249, 115, 22, 0.07);
+}
+
+.kebab-stripe {
+  background: linear-gradient(90deg, #f97316 0%, #eab308 40%, #ef4444 70%, #f97316 100%);
+  background-size: 200% 100%;
+  animation: kebab-slide 6s linear infinite;
+}
+
+@keyframes kebab-slide {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
 }
 
 /* cal-heatmap dark overrides */
