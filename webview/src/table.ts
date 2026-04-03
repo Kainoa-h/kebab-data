@@ -1,24 +1,25 @@
 import type { User } from './types';
+import { deAnon, onDeAnonChange } from './deanon';
 
 export function renderContributorTable(
-  tbody: HTMLTableSectionElement, 
-  selectSort: HTMLSelectElement, 
+  tbody: HTMLTableSectionElement,
+  selectSort: HTMLSelectElement,
   users: User[]
 ) {
   function render() {
     const sortBy = selectSort.value;
-    
+
     const sortedUsers = [...users].sort((a, b) => {
       if (sortBy === 'open') return b.open_attributions - a.open_attributions;
       if (sortBy === 'closed') return b.closed_attributions - a.closed_attributions;
       if (sortBy === 'reactions') return (b.total_reactions_earned || 0) - (a.total_reactions_earned || 0);
       return b.total_attributions - a.total_attributions; // default total
     });
-    
+
     tbody.innerHTML = sortedUsers.map((user, index) => `
       <tr class="even:bg-gray-800/60 border-b border-gray-800 last:border-0 hover:bg-gray-700/60 transition-colors" title="Joined: ${user.join_date || 'Unknown'}">
         <td class="py-1.5 px-2 md:px-4 tabular-nums text-gray-400">${index + 1}</td>
-        <td class="py-1.5 px-2 md:px-4 font-medium cursor-help underline decoration-dotted decoration-gray-500 underline-offset-4 max-w-[120px] md:max-w-none truncate">${user.alias}</td>
+        <td class="py-1.5 px-2 md:px-4 font-medium cursor-help underline decoration-dotted decoration-gray-500 underline-offset-4 max-w-[120px] md:max-w-none truncate">${deAnon(user.alias)}</td>
         <td class="py-1.5 px-2 md:px-4 text-green-500 tabular-nums">${user.open_attributions}</td>
         <td class="py-1.5 px-2 md:px-4 text-red-500 tabular-nums">${user.closed_attributions}</td>
         <td class="py-1.5 px-2 md:px-4 font-semibold tabular-nums">${user.total_attributions}</td>
@@ -29,4 +30,5 @@ export function renderContributorTable(
 
   render();
   selectSort.addEventListener('change', render);
+  onDeAnonChange(render);
 }

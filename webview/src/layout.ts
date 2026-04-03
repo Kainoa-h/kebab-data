@@ -143,6 +143,24 @@ export function buildLayout(): LayoutRefs {
         🥙 powered by kebab energy &amp; questionable data quality 🥙
       </footer>
     </div>
+
+    <button id="btn-deanon"
+      class="fixed top-3 right-4 z-[60] w-7 h-7 rounded-full bg-gray-800/60 hover:bg-gray-700 border border-gray-700/50 text-gray-500 hover:text-gray-200 text-xs flex items-center justify-center transition-all backdrop-blur-sm cursor-pointer"
+      title="De-anonymise aliases">?</button>
+
+    <div id="modal-deanon"
+      class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+      <div class="bg-gray-900 border border-gray-700 rounded-xl p-6 max-w-sm w-full mx-4 shadow-2xl">
+        <h3 class="text-lg font-semibold mb-1">De-anonymise Aliases</h3>
+        <p class="text-gray-400 text-sm mb-4">Upload your <code class="text-orange-400 text-xs">anon_map.json</code> to reveal real usernames throughout the dashboard.</p>
+        <input type="file" id="input-deanon" accept=".json"
+          class="block w-full text-sm text-gray-400 file:mr-3 file:py-1.5 file:px-3 file:rounded file:border-0 file:text-sm file:bg-gray-800 file:text-gray-300 hover:file:bg-gray-700 cursor-pointer mb-3">
+        <div id="deanon-status" class="text-xs text-gray-500 min-h-[1.25rem] mb-4"></div>
+        <div class="flex justify-end">
+          <button id="btn-deanon-close" class="text-sm text-gray-500 hover:text-gray-200 transition-colors">Close</button>
+        </div>
+      </div>
+    </div>
   `;
 
   return {

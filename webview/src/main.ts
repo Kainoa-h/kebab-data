@@ -12,10 +12,12 @@ import { renderUserReactions } from './charts/userReactions';
 import { renderContributorTable } from './table';
 import { renderStreaks } from './stats/streaks';
 import { renderNewMembersPerMonth } from './charts/newMembersPerMonth';
+import { initDeAnonUI } from './deanon';
 
 async function init() {
   const refs = buildLayout();
-  
+  initDeAnonUI();
+
   try {
     const data = await fetchAllData();
     

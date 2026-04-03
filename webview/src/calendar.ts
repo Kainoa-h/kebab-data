@@ -5,6 +5,7 @@ import Tooltip from 'cal-heatmap/plugins/Tooltip';
 import 'cal-heatmap/cal-heatmap.css';
 import type { CalendarData, DayStatus } from './types';
 import { STATUS_COLORS, normalizeStatus } from './types';
+import { deAnon } from './deanon';
 
 const COLOR_NO_DATA = '#1e293b';
 
@@ -104,7 +105,7 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
           if (record.isDefaultSunday) {
             label += ' (Default — always closed on Sundays)';
           } else if (record.contributors && record.contributors.length > 0) {
-            label += ` — reported by: ${record.contributors.join(', ')}`;
+            label += ` — reported by: ${record.contributors.map(c => deAnon(c)).join(', ')}`;
           } else if (record.status === 'unknown') {
             label += ' (no reports)';
           }
