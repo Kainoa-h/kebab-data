@@ -10,6 +10,8 @@ import { renderMediaEfficiency } from './charts/mediaEfficiency';
 import { renderReactionLeaderboard } from './charts/reactionLeaderboard';
 import { renderUserReactions } from './charts/userReactions';
 import { renderContributorTable } from './table';
+import { renderStreaks } from './stats/streaks';
+import { renderNewMembersPerMonth } from './charts/newMembersPerMonth';
 
 async function init() {
   const refs = buildLayout();
@@ -18,6 +20,8 @@ async function init() {
     const data = await fetchAllData();
     
     renderCalendarHeatmap('#cal-heatmap-container', data.calendar);
+    renderStreaks(refs.streakStatsEl, data.calendar);
+    renderNewMembersPerMonth(refs.canvasNewMembers, data.monthlyStats);
     renderDowPatterns(refs.canvasDow, data.dowPatterns);
     renderMemberGrowth(refs.canvasMemberGrowth, data.memberGrowth);
     renderMonthlyOverview(

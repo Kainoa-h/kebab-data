@@ -10,6 +10,8 @@ export interface LayoutRefs {
   canvasMediaEfficiency: HTMLCanvasElement;
   canvasReactionLeaderboard: HTMLCanvasElement;
   canvasUserReactions: HTMLCanvasElement;
+  streakStatsEl: HTMLDivElement;
+  canvasNewMembers: HTMLCanvasElement;
   selectContributorSort: HTMLSelectElement;
   tableBodyContributors: HTMLTableSectionElement;
 }
@@ -39,7 +41,6 @@ export function buildLayout(): LayoutRefs {
         <div class="mb-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
           <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-open)"></span> Open</div>
           <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-closed)"></span> Closed</div>
-          <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-conflicted)"></span> Conflicted</div>
           <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-unknown)"></span> Unknown (no reports)</div>
           <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm border border-gray-600" style="background-color: var(--color-no-data)"></span> Future / no data</div>
         </div>
@@ -65,6 +66,11 @@ export function buildLayout(): LayoutRefs {
         </div>
       </section>
 
+      <section class="card">
+        <h2 class="text-xl font-semibold mb-4">🔥 Kebab Streaks</h2>
+        <div id="streak-stats"></div>
+      </section>
+
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
         <section class="card">
           <h2 class="text-xl font-semibold mb-4">📅 Day of Week Patterns</h2>
@@ -82,8 +88,8 @@ export function buildLayout(): LayoutRefs {
         </section>
 
         <section class="card">
-          <h2 class="text-xl font-semibold mb-4">🖼️ Media Efficiency</h2>
-          <canvas id="canvas-media-efficiency"></canvas>
+          <h2 class="text-xl font-semibold mb-4">🧑‍🤝‍🧑 New Members per Month</h2>
+          <canvas id="canvas-new-members"></canvas>
         </section>
 
       </div>
@@ -126,6 +132,11 @@ export function buildLayout(): LayoutRefs {
           <h2 class="text-xl font-semibold mb-4">⭐ Top Users by Reactions</h2>
           <canvas id="canvas-user-reactions"></canvas>
         </section>
+
+        <section class="card">
+          <h2 class="text-xl font-semibold mb-4">🖼️ Media Efficiency</h2>
+          <canvas id="canvas-media-efficiency"></canvas>
+        </section>
       </div>
 
       <footer class="text-center text-gray-600 text-sm pt-4">
@@ -146,6 +157,8 @@ export function buildLayout(): LayoutRefs {
     canvasMediaEfficiency: document.getElementById('canvas-media-efficiency') as HTMLCanvasElement,
     canvasReactionLeaderboard: document.getElementById('canvas-reaction-leaderboard') as HTMLCanvasElement,
     canvasUserReactions: document.getElementById('canvas-user-reactions') as HTMLCanvasElement,
+    streakStatsEl: document.getElementById('streak-stats') as HTMLDivElement,
+    canvasNewMembers: document.getElementById('canvas-new-members') as HTMLCanvasElement,
     selectContributorSort: document.getElementById('select-contributor-sort') as HTMLSelectElement,
     tableBodyContributors: document.getElementById('tbody-contributors') as HTMLTableSectionElement,
   };

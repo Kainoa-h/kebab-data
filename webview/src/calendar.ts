@@ -4,7 +4,7 @@ import CalHeatmap from 'cal-heatmap';
 import Tooltip from 'cal-heatmap/plugins/Tooltip';
 import 'cal-heatmap/cal-heatmap.css';
 import type { CalendarData, DayStatus } from './types';
-import { STATUS_COLORS } from './types';
+import { STATUS_COLORS, normalizeStatus } from './types';
 
 const COLOR_NO_DATA = '#1e293b';
 
@@ -28,7 +28,7 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
     const record = calendarData[dateStr];
     const isFuture = d > today;
 
-    let status: DayStatus = record?.status || 'unknown';
+    let status: DayStatus = normalizeStatus(record?.status || 'unknown');
     let isDefaultSunday = false;
 
     if (status === 'unknown' && d.getDay() === 0) {
@@ -36,16 +36,14 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
       isDefaultSunday = true;
     }
 
-    // value: 0=unknown(no reports), 1=open, 2=closed, 3=conflicted, 4=out of range
+    // value: 0=unknown(no reports), 1=open, 2=closed, 3=out of range
     let value: number;
     if (isFuture) {
-      value = 4;
+      value = 3;
     } else if (status === 'open') {
       value = 1;
     } else if (status === 'closed') {
       value = 2;
-    } else if (status === 'conflicted') {
-      value = 3;
     } else {
       value = 0;
     }
@@ -77,13 +75,12 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
     scale: {
       color: {
         type: 'ordinal',
-        domain: [0, 1, 2, 3, 4],
+        domain: [0, 1, 2, 3],
         range: [
-          STATUS_COLORS.unknown,    // 0 = unknown (no reports)
-          STATUS_COLORS.open,       // 1 = open
-          STATUS_COLORS.closed,     // 2 = closed
-          STATUS_COLORS.conflicted, // 3 = conflicted
-          COLOR_NO_DATA             // 4 = future / outside data range
+          STATUS_COLORS.unknown, // 0 = unknown (no reports)
+          STATUS_COLORS.open,    // 1 = open
+          STATUS_COLORS.closed,  // 2 = closed
+          COLOR_NO_DATA          // 3 = future / outside data range
         ]
       }
     }

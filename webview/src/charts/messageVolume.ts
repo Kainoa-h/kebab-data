@@ -22,8 +22,8 @@ export function renderMessageVolume(canvas: HTMLCanvasElement, data: MessageVolu
     data: {
       labels,
       datasets: [
-        { label: 'Attributed', data: attributed, backgroundColor: '#10b981', stack: 'vol' },
-        { label: 'Unattributed', data: unattributed, backgroundColor: '#6b7280', stack: 'vol' }
+        { label: 'Actually usefull messages telling us if shes open or nah', data: attributed, backgroundColor: '#10b981', stack: 'vol' },
+        { label: 'yap', data: unattributed, backgroundColor: '#6b7280', stack: 'vol' }
       ]
     },
     options: {

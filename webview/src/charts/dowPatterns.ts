@@ -11,9 +11,8 @@ export function renderDowPatterns(canvas: HTMLCanvasElement, data: DowPattern[])
     data: {
       labels: filtered.map(d => d.label),
       datasets: [
-        { label: 'Open', data: filtered.map(d => d.open), backgroundColor: STATUS_COLORS.open },
+        { label: 'Open', data: filtered.map(d => d.open + d.conflicted), backgroundColor: STATUS_COLORS.open },
         { label: 'Closed', data: filtered.map(d => d.closed), backgroundColor: STATUS_COLORS.closed },
-        { label: 'Conflicted', data: filtered.map(d => d.conflicted), backgroundColor: STATUS_COLORS.conflicted },
         { label: 'Unknown', data: filtered.map(d => d.unknown), backgroundColor: STATUS_COLORS.unknown },
       ]
     },

@@ -1,5 +1,9 @@
 export type DayStatus = 'open' | 'closed' | 'conflicted' | 'unknown';
 
+export function normalizeStatus(s: DayStatus): DayStatus {
+  return s === 'conflicted' ? 'open' : s;
+}
+
 export const STATUS_COLORS: Record<DayStatus, string> = {
   open: '#22c55e',
   closed: '#ef4444',

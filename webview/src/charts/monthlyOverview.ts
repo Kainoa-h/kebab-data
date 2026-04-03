@@ -1,6 +1,6 @@
 import { Chart } from 'chart.js/auto';
 import type { CalendarData, MemberJoin, DayStatus } from '../types';
-import { STATUS_COLORS } from '../types';
+import { STATUS_COLORS, normalizeStatus } from '../types';
 
 function getMonday(dateStr: string) {
   const d = new Date(dateStr);
@@ -41,7 +41,6 @@ export function renderMonthlyOverview(
       new_members: number;
       open_days: number;
       closed_days: number;
-      conflicted_days: number;
       unknown_days: number;
     }>();
 
@@ -58,7 +57,7 @@ export function renderMonthlyOverview(
 
       if (!groupedData.has(groupKey)) {
         groupedData.set(groupKey, {
-          new_members: 0, open_days: 0, closed_days: 0, conflicted_days: 0, unknown_days: 0
+          new_members: 0, open_days: 0, closed_days: 0, unknown_days: 0
         });
       }
 
@@ -68,18 +67,22 @@ export function renderMonthlyOverview(
       group.new_members += joinsMap.get(dateStr) || 0;
 
       // Status
-      let status: DayStatus = calendarData[dateStr]?.status || 'unknown';
+      let status: DayStatus = normalizeStatus(calendarData[dateStr]?.status || 'unknown');
       if (status === 'unknown' && d.getDay() === 0) {
         status = 'closed'; // Default Sunday
       }
 
       if (status === 'open') group.open_days++;
       else if (status === 'closed') group.closed_days++;
-      else if (status === 'conflicted') group.conflicted_days++;
       else group.unknown_days++;
     }
 
-    const allLabels = Array.from(groupedData.keys()).sort();
+    const today = new Date();
+    const currentPeriod = zoom === 'monthly'
+      ? today.toISOString().substring(0, 7)
+      : getMonday(today.toISOString().split('T')[0]);
+
+    const allLabels = Array.from(groupedData.keys()).sort().filter(l => l < currentPeriod);
     const totalPages = Math.ceil(allLabels.length / pageSize);
     
     // Ensure currentPage is valid
@@ -121,7 +124,6 @@ export function renderMonthlyOverview(
           },
           { label: 'Open', data: pagedData.map(d => d.open_days), backgroundColor: STATUS_COLORS.open },
           { label: 'Closed', data: pagedData.map(d => d.closed_days), backgroundColor: STATUS_COLORS.closed },
-          { label: 'Conflicted', data: pagedData.map(d => d.conflicted_days), backgroundColor: STATUS_COLORS.conflicted },
           { label: 'Unknown', data: pagedData.map(d => d.unknown_days), backgroundColor: STATUS_COLORS.unknown },
         ]
       },
