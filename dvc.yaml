@@ -28,3 +28,16 @@ stages:
       - processed/store_status:
           cache: true
           persist: true
+
+  prepare_web_data:
+    cmd: python src/prepare_web_data.py
+    deps:
+      - raw/members
+      - raw/messages
+      - processed/store_status/daily_status.jsonl
+      - processed/store_status/user_attributions.json
+      - src/prepare_web_data.py
+    outs:
+      - processed/web_data:
+          cache: true
+          persist: true

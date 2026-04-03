@@ -56,3 +56,34 @@ stages:
       md5: 0642cba3067b2e2234e2dd89b1fc86e6.dir
       size: 160261
       nfiles: 5
+  prepare_web_data:
+    cmd: python src/prepare_web_data.py
+    deps:
+    - path: processed/store_status/daily_status.jsonl
+      hash: md5
+      md5: 87a2191ccb9136069c575073dfb3efc9
+      size: 88706
+    - path: processed/store_status/user_attributions.json
+      hash: md5
+      md5: 70ae9ef438a31aee5ffd47f20223a819
+      size: 15209
+    - path: raw/members
+      hash: md5
+      md5: cd2131fc897f98656bfbc428af986b40.dir
+      size: 270498
+      nfiles: 1
+    - path: raw/messages
+      hash: md5
+      md5: b3ea84990b4404b88c83f0f8915e8012.dir
+      size: 662244
+      nfiles: 197
+    - path: src/prepare_web_data.py
+      hash: md5
+      md5: d6da3118b3af1faf136ca8629b0ff771
+      size: 24880
+    outs:
+    - path: processed/web_data
+      hash: md5
+      md5: 6bcb94f1a8b3627d10956bd1960e9a88.dir
+      size: 315756
+      nfiles: 23
