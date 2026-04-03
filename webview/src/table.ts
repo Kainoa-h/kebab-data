@@ -16,13 +16,13 @@ export function renderContributorTable(
     });
     
     tbody.innerHTML = sortedUsers.map((user, index) => `
-      <tr class="even:bg-gray-800 border-b border-gray-800 last:border-0 hover:bg-gray-700 transition-colors" title="Joined: ${user.join_date || 'Unknown'}">
-        <td class="py-2 px-4">${index + 1}</td>
-        <td class="py-2 px-4 font-medium cursor-help underline decoration-dotted decoration-gray-500 underline-offset-4">${user.alias}</td>
-        <td class="py-2 px-4 text-green-500">${user.open_attributions}</td>
-        <td class="py-2 px-4 text-red-500">${user.closed_attributions}</td>
-        <td class="py-2 px-4 font-semibold">${user.total_attributions}</td>
-        <td class="py-2 px-4 text-yellow-500 font-semibold">${user.total_reactions_earned || 0}</td>
+      <tr class="even:bg-gray-800/60 border-b border-gray-800 last:border-0 hover:bg-gray-700/60 transition-colors" title="Joined: ${user.join_date || 'Unknown'}">
+        <td class="py-1.5 px-2 md:px-4 tabular-nums text-gray-400">${index + 1}</td>
+        <td class="py-1.5 px-2 md:px-4 font-medium cursor-help underline decoration-dotted decoration-gray-500 underline-offset-4 max-w-[120px] md:max-w-none truncate">${user.alias}</td>
+        <td class="py-1.5 px-2 md:px-4 text-green-500 tabular-nums">${user.open_attributions}</td>
+        <td class="py-1.5 px-2 md:px-4 text-red-500 tabular-nums">${user.closed_attributions}</td>
+        <td class="py-1.5 px-2 md:px-4 font-semibold tabular-nums">${user.total_attributions}</td>
+        <td class="py-1.5 px-2 md:px-4 text-yellow-500 font-semibold tabular-nums">${user.total_reactions_earned || 0}</td>
       </tr>
     `).join('');
   }

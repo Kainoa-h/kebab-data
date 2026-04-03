@@ -10,7 +10,7 @@
 }
 
 .card {
-  @apply bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-800 transition-all duration-200;
+  @apply bg-gray-900 rounded-xl p-4 md:p-6 shadow-lg border border-gray-800 transition-all duration-200;
 }
 
 .card:hover {
