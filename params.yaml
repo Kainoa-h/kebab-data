@@ -1,0 +1,8 @@
+scraper:
+  group_id: -1002295143066
+  batch_size: 200
+  media_types:
+    - photo
+    - video
+    - video_note
+  incremental: true

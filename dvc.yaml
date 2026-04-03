@@ -1,0 +1,19 @@
+stages:
+  scrape:
+    cmd: python src/scraper.py
+    params:
+      - params.yaml:
+        - scraper
+    outs:
+      - raw/messages:
+          cache: true
+          persist: true
+      - raw/members:
+          cache: true
+          persist: true
+      - raw/invite_links:
+          cache: true
+          persist: true
+      - raw/media:
+          cache: true
+          persist: true

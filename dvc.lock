@@ -1,0 +1,35 @@
+schema: '2.0'
+stages:
+  scrape:
+    cmd: python src/scraper.py
+    params:
+      params.yaml:
+        scraper:
+          group_id: -1002295143066
+          batch_size: 200
+          media_types:
+          - photo
+          - video
+          - video_note
+          incremental: true
+    outs:
+    - path: raw/invite_links
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+    - path: raw/media
+      hash: md5
+      md5: 8b0497174c0add09d299c5e02a29de41.dir
+      size: 68990824
+      nfiles: 240
+    - path: raw/members
+      hash: md5
+      md5: 5b3dadd4f4f6d726edff6eb803bc0afb.dir
+      size: 270552
+      nfiles: 1
+    - path: raw/messages
+      hash: md5
+      md5: b3ea84990b4404b88c83f0f8915e8012.dir
+      size: 662244
+      nfiles: 197
