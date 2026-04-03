@@ -79,11 +79,11 @@ stages:
       nfiles: 197
     - path: src/prepare_web_data.py
       hash: md5
-      md5: d6da3118b3af1faf136ca8629b0ff771
-      size: 24880
+      md5: 11d1bc61c9afed348aeac82d6d1088a3
+      size: 26917
     outs:
     - path: processed/web_data
       hash: md5
-      md5: 6bcb94f1a8b3627d10956bd1960e9a88.dir
-      size: 315756
+      md5: a6cf55c09ea3ad8fd68056c47bc817dd.dir
+      size: 401580
       nfiles: 23

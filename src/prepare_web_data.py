@@ -93,29 +93,62 @@ def _build_alias(salt: str, user_id: int, existing: set[str]) -> str:
     return f"{base}{n}"
 
 
-def load_anon_map() -> dict[str, str]:
-    """Load {user_id_str: alias}. Returns empty dict if not yet created."""
+def load_anon_map() -> dict[str, dict]:
+    """
+    Load aliases from disk. The file format is:
+      { "AliasName": { "id": 123, "username": "foo" } }
+    Returns an in-memory map: { "123": { "alias": "AliasName", "username": "foo" } }
+    """
     if ANON_MAP_FILE.exists():
         try:
-            return json.loads(ANON_MAP_FILE.read_text())
-        except (json.JSONDecodeError, OSError):
+            data = json.loads(ANON_MAP_FILE.read_text())
+            mem_map = {}
+            for alias, info in data.items():
+                uid_str = str(info.get("id"))
+                mem_map[uid_str] = {
+                    "alias": alias,
+                    "username": info.get("username")
+                }
+            return mem_map
+        except (json.JSONDecodeError, OSError, AttributeError):
             pass
     return {}
 
 
-def save_anon_map(anon_map: dict) -> None:
+def save_anon_map(anon_map: dict[str, dict]) -> None:
+    """
+    Save the anon map. Converts the in-memory map back to:
+      { "AliasName": { "id": 123, "username": "foo" } }
+    """
+    out_data = {}
+    for uid_str, info in anon_map.items():
+        try:
+            uid = int(uid_str)
+        except ValueError:
+            continue
+        out_data[info["alias"]] = {
+            "id": uid,
+            "username": info.get("username")
+        }
+    
     tmp = ANON_MAP_FILE.with_suffix(".tmp")
-    tmp.write_text(json.dumps(anon_map, indent=2))
+    tmp.write_text(json.dumps(out_data, indent=2))
     tmp.replace(ANON_MAP_FILE)
 
 
-def get_or_create_alias(anon_map: dict, salt: str, user_id: int) -> str:
+def get_or_create_alias(anon_map: dict[str, dict], salt: str, user_id: int, username: str | None = None) -> str:
     """Return existing alias or create a stable new one, mutating anon_map."""
     key = str(user_id)
     if key not in anon_map:
-        existing = set(anon_map.values())
-        anon_map[key] = _build_alias(salt, user_id, existing)
-    return anon_map[key]
+        existing_aliases = {info["alias"] for info in anon_map.values()}
+        alias = _build_alias(salt, user_id, existing_aliases)
+        anon_map[key] = {"alias": alias, "username": username}
+    else:
+        # Update username if it wasn't set or has changed, provided we have one
+        if username and anon_map[key].get("username") != username:
+            anon_map[key]["username"] = username
+
+    return anon_map[key]["alias"]
 
 
 # ── Config ─────────────────────────────────────────────────────────────────────
@@ -254,8 +287,9 @@ def load_user_attributions() -> dict:
 def build_users_json(
     canonical_members: dict[int, dict],
     user_attributions: dict,
-    anon_map: dict,
+    anon_map: dict[str, dict],
     salt: str,
+    all_messages: list[dict],
 ) -> list[dict]:
     """
     Build anonymised user list.
@@ -272,13 +306,31 @@ def build_users_json(
         except ValueError:
             pass
 
+    user_reactions_earned: dict[int, int] = defaultdict(int)
+    msg_usernames: dict[int, str] = {}
+    for msg in all_messages:
+        sender = msg.get("sender_id")
+        if sender is not None:
+            all_user_ids.add(sender)
+            username = msg.get("sender_username")
+            if username:
+                msg_usernames[sender] = username
+            for r in msg.get("reactions", []):
+                user_reactions_earned[sender] += r.get("count", 0)
+
     rows = []
     for uid in all_user_ids:
         member = canonical_members.get(uid)
         uid_str = str(uid)
         attr = user_attributions.get(uid_str, {})
 
-        alias = get_or_create_alias(anon_map, salt, uid)
+        username = None
+        if member and member.get("username"):
+            username = member.get("username")
+        elif uid in msg_usernames:
+            username = msg_usernames[uid]
+
+        alias = get_or_create_alias(anon_map, salt, uid, username)
         join_date = None
         join_method = None
         if member:
@@ -293,6 +345,7 @@ def build_users_json(
             "total_attributions": attr.get("total_attributions", 0),
             "open_attributions": attr.get("open_attributions", 0),
             "closed_attributions": attr.get("closed_attributions", 0),
+            "total_reactions_earned": user_reactions_earned.get(uid, 0),
         })
 
     # Sort by join_date ascending, nulls last
@@ -313,7 +366,7 @@ def build_calendar_month(
             uid = attrib.get("user_id")
             if uid is not None:
                 contributor_ids.add(uid)
-        aliases = sorted(anon_map.get(str(uid), f"User{uid}") for uid in contributor_ids)
+        aliases = sorted(anon_map.get(str(uid), {}).get("alias", f"User{uid}") for uid in contributor_ids)
         result[d] = {
             "status": row["status"],
             "contributors": aliases,
@@ -354,7 +407,7 @@ def build_member_joins(
         if not jd:
             continue
         date_str = jd[:10]
-        alias = anon_map.get(str(uid), f"User{uid}")
+        alias = anon_map.get(str(uid), {}).get("alias", f"User{uid}")
         by_date[date_str].append(alias)
 
     rows = []
@@ -634,7 +687,7 @@ def main() -> None:
     )
 
     # ── Build outputs ────────────────────────────────────────────────────────
-    users = build_users_json(canonical_members, user_attributions, anon_map, salt)
+    users = build_users_json(canonical_members, user_attributions, anon_map, salt, all_messages)
     write_json_atomic(OUT_DIR / "users.json", users)
     log.info("Wrote users.json (%d users)", len(users))
 
