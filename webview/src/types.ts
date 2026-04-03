@@ -14,6 +14,7 @@ export interface User {
   total_attributions: number;
   open_attributions: number;
   closed_attributions: number;
+  total_reactions_earned?: number;
 }
 
 export interface DayRecord {

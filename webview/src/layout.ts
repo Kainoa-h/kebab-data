@@ -9,12 +9,14 @@ export interface LayoutRefs {
   canvasMessageVolume: HTMLCanvasElement;
   canvasMediaEfficiency: HTMLCanvasElement;
   canvasReactionLeaderboard: HTMLCanvasElement;
+  canvasUserReactions: HTMLCanvasElement;
+  selectContributorSort: HTMLSelectElement;
   tableBodyContributors: HTMLTableSectionElement;
 }
 
 export function buildLayout(): LayoutRefs {
   const app = document.getElementById('app')!;
-  
+
   app.innerHTML = `
     <div class="max-w-7xl mx-auto p-4 md:p-8 space-y-8">
       <header class="text-center md:text-left mb-8">
@@ -71,25 +73,28 @@ export function buildLayout(): LayoutRefs {
           <canvas id="canvas-media-efficiency"></canvas>
         </section>
 
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">Reaction Leaderboard</h2>
-          <canvas id="canvas-reaction-leaderboard"></canvas>
-        </section>
       </div>
 
       <section class="card">
-        <h2 class="text-xl font-semibold mb-4">Contributor Rankings</h2>
-        <div class="overflow-x-auto">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl font-semibold">Contributor Rankings</h2>
+          <select id="select-contributor-sort" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none">
+            <option value="total" selected>Sort by: Total</option>
+            <option value="open">Sort by: Open</option>
+            <option value="closed">Sort by: Closed</option>
+            <option value="reactions">Sort by: Reactions</option>
+          </select>
+        </div>
+        <div class="overflow-x-auto max-h-[800px] overflow-y-auto relative">
           <table class="w-full text-left border-collapse whitespace-nowrap">
-            <thead>
+            <thead class="sticky top-0 bg-gray-900 z-10 shadow-[0_1px_0_0_#374151]">
               <tr class="border-b border-gray-700">
                 <th class="py-2 px-4">Rank</th>
                 <th class="py-2 px-4">Alias</th>
-                <th class="py-2 px-4">Join Date</th>
-                <th class="py-2 px-4">Method</th>
                 <th class="py-2 px-4">Open</th>
                 <th class="py-2 px-4">Closed</th>
                 <th class="py-2 px-4">Total</th>
+                <th class="py-2 px-4">Reactions</th>
               </tr>
             </thead>
             <tbody id="tbody-contributors">
@@ -97,6 +102,18 @@ export function buildLayout(): LayoutRefs {
           </table>
         </div>
       </section>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <section class="card">
+          <h2 class="text-xl font-semibold mb-4">Reaction Leaderboard</h2>
+          <canvas id="canvas-reaction-leaderboard"></canvas>
+        </section>
+
+        <section class="card">
+          <h2 class="text-xl font-semibold mb-4">Top Users by Reactions</h2>
+          <canvas id="canvas-user-reactions"></canvas>
+        </section>
+      </div>
     </div>
   `;
 
@@ -111,6 +128,8 @@ export function buildLayout(): LayoutRefs {
     canvasMessageVolume: document.getElementById('canvas-message-volume') as HTMLCanvasElement,
     canvasMediaEfficiency: document.getElementById('canvas-media-efficiency') as HTMLCanvasElement,
     canvasReactionLeaderboard: document.getElementById('canvas-reaction-leaderboard') as HTMLCanvasElement,
+    canvasUserReactions: document.getElementById('canvas-user-reactions') as HTMLCanvasElement,
+    selectContributorSort: document.getElementById('select-contributor-sort') as HTMLSelectElement,
     tableBodyContributors: document.getElementById('tbody-contributors') as HTMLTableSectionElement,
   };
 }

@@ -8,6 +8,7 @@ import { renderMonthlyOverview } from './charts/monthlyOverview';
 import { renderMessageVolume } from './charts/messageVolume';
 import { renderMediaEfficiency } from './charts/mediaEfficiency';
 import { renderReactionLeaderboard } from './charts/reactionLeaderboard';
+import { renderUserReactions } from './charts/userReactions';
 import { renderContributorTable } from './table';
 
 async function init() {
@@ -30,7 +31,8 @@ async function init() {
     renderMessageVolume(refs.canvasMessageVolume, data.messageVolume);
     renderMediaEfficiency(refs.canvasMediaEfficiency, data.mediaBreakdown);
     renderReactionLeaderboard(refs.canvasReactionLeaderboard, data.reactionStats);
-    renderContributorTable(refs.tableBodyContributors, data.users);
+    renderUserReactions(refs.canvasUserReactions, data.users);
+    renderContributorTable(refs.tableBodyContributors, refs.selectContributorSort, data.users);
   } catch (err) {
     console.error('Failed to initialize dashboard:', err);
     document.getElementById('app')!.innerHTML = `
