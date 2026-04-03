@@ -84,6 +84,7 @@
                 ++ [
                   self.formatter.${system}
                   pkgs.gnumake
+                  pkgs.ffmpeg
                   llama-cpp-custom
                 ];
             }

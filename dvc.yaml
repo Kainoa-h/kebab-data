@@ -17,3 +17,14 @@ stages:
       - raw/media:
           cache: true
           persist: true
+
+  analyze_store_status:
+    cmd: python src/analyze_store_status.py
+    deps:
+      - raw/messages
+      - raw/media
+      - src/analyze_store_status.py
+    outs:
+      - processed/store_status:
+          cache: true
+          persist: true
