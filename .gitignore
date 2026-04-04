@@ -6,3 +6,4 @@
 /llms/Qwen3.5-9B-Q4_K_M.gguf
 /llms/mmproj-F16.gguf
 /src/__pycache__
+/webview/publish.sh
