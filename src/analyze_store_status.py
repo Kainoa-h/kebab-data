@@ -579,7 +579,10 @@ def main() -> None:
     # ── Date range (always over ALL messages, not just new ones) ──────────────
     msg_dates = [m["date"][:10] for m in all_messages if m.get("date")]
     date_start = date.fromisoformat(min(msg_dates))
-    date_end = date.fromisoformat(max(msg_dates))
+    # Extend end to cover future dates referenced in attributions (e.g. "closed
+    # for the next 3 days" produces dates beyond the last message date).
+    attrib_dates = [r["date"] for r in all_attributions if r.get("date")]
+    date_end = date.fromisoformat(max(msg_dates + attrib_dates))
     total_days = (date_end - date_start).days + 1
     all_days = {str(date_start + timedelta(days=n)) for n in range(total_days)}
 
