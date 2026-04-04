@@ -13,6 +13,9 @@ export interface LayoutRefs {
   streakStatsEl: HTMLDivElement;
   canvasNewMembers: HTMLCanvasElement;
   selectContributorSort: HTMLSelectElement;
+  selectContributorMonth: HTMLSelectElement;
+  btnContributorMonthPrev: HTMLButtonElement;
+  btnContributorMonthNext: HTMLButtonElement;
   tableBodyContributors: HTMLTableSectionElement;
 }
 
@@ -97,12 +100,34 @@ export function buildLayout(): LayoutRefs {
       <section class="card">
         <div class="flex flex-wrap justify-between items-center gap-3 mb-4">
           <h2 class="text-xl font-semibold">🏆 Contributor Rankings</h2>
-          <select id="select-contributor-sort" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none">
-            <option value="total" selected>Sort by: Total</option>
-            <option value="open">Sort by: Open</option>
-            <option value="closed">Sort by: Closed</option>
-            <option value="reactions">Sort by: Reactions</option>
-          </select>
+          <div class="flex items-center gap-2 flex-wrap">
+            <div class="flex items-center gap-1">
+              <button id="btn-contributor-month-prev" class="bg-gray-800 hover:bg-orange-900/40 hover:border-orange-600 border border-gray-700 text-white text-sm rounded px-3 py-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&larr;</button>
+              <select id="select-contributor-month" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none">
+                <option value="all">All time</option>
+                <option value="2025-04">April 2025</option>
+                <option value="2025-05">May 2025</option>
+                <option value="2025-06">June 2025</option>
+                <option value="2025-07">July 2025</option>
+                <option value="2025-08">August 2025</option>
+                <option value="2025-09">September 2025</option>
+                <option value="2025-10">October 2025</option>
+                <option value="2025-11">November 2025</option>
+                <option value="2025-12">December 2025</option>
+                <option value="2026-01">January 2026</option>
+                <option value="2026-02">February 2026</option>
+                <option value="2026-03">March 2026</option>
+                <option value="2026-04">April 2026</option>
+              </select>
+              <button id="btn-contributor-month-next" class="bg-gray-800 hover:bg-orange-900/40 hover:border-orange-600 border border-gray-700 text-white text-sm rounded px-3 py-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&#8250;</button>
+            </div>
+            <select id="select-contributor-sort" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none">
+              <option value="total" selected>Sort by: Total</option>
+              <option value="open">Sort by: Open</option>
+              <option value="closed">Sort by: Closed</option>
+              <option value="reactions">Sort by: Reactions</option>
+            </select>
+          </div>
         </div>
         <div class="overflow-x-auto max-h-[800px] overflow-y-auto relative">
           <table class="w-full text-left border-collapse text-sm">
@@ -178,6 +203,9 @@ export function buildLayout(): LayoutRefs {
     streakStatsEl: document.getElementById('streak-stats') as HTMLDivElement,
     canvasNewMembers: document.getElementById('canvas-new-members') as HTMLCanvasElement,
     selectContributorSort: document.getElementById('select-contributor-sort') as HTMLSelectElement,
+    selectContributorMonth: document.getElementById('select-contributor-month') as HTMLSelectElement,
+    btnContributorMonthPrev: document.getElementById('btn-contributor-month-prev') as HTMLButtonElement,
+    btnContributorMonthNext: document.getElementById('btn-contributor-month-next') as HTMLButtonElement,
     tableBodyContributors: document.getElementById('tbody-contributors') as HTMLTableSectionElement,
   };
 }

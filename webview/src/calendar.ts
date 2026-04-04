@@ -5,6 +5,7 @@ import Tooltip from 'cal-heatmap/plugins/Tooltip';
 import 'cal-heatmap/cal-heatmap.css';
 import type { CalendarData, DayStatus } from './types';
 import { STATUS_COLORS, normalizeStatus } from './types';
+import { toDateStrUTC8 } from './utils';
 import { deAnon } from './deanon';
 
 const COLOR_NO_DATA = '#1e293b';
@@ -25,7 +26,7 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
   }> = [];
 
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-    const dateStr = d.toISOString().split('T')[0];
+    const dateStr = toDateStrUTC8(d);
     const record = calendarData[dateStr];
     const isFuture = d > today;
 

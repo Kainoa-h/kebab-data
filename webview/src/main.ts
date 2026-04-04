@@ -38,7 +38,7 @@ async function init() {
     renderMediaEfficiency(refs.canvasMediaEfficiency, data.mediaBreakdown);
     renderReactionLeaderboard(refs.canvasReactionLeaderboard, data.reactionStats);
     renderUserReactions(refs.canvasUserReactions, data.users);
-    renderContributorTable(refs.tableBodyContributors, refs.selectContributorSort, data.users);
+    renderContributorTable(refs.tableBodyContributors, refs.selectContributorSort, refs.selectContributorMonth, refs.btnContributorMonthPrev, refs.btnContributorMonthNext, data.users, data.calendar);
   } catch (err) {
     console.error('Failed to initialize dashboard:', err);
     document.getElementById('app')!.innerHTML = `

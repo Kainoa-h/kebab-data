@@ -1,13 +1,14 @@
 import { Chart } from 'chart.js/auto';
 import type { CalendarData, MemberJoin, DayStatus } from '../types';
 import { STATUS_COLORS, normalizeStatus } from '../types';
+import { toDateStrUTC8 } from '../utils';
 
 function getMonday(dateStr: string) {
   const d = new Date(dateStr);
   const day = d.getDay();
   const diff = d.getDate() - day + (day === 0 ? -6 : 1);
   const monday = new Date(d.setDate(diff));
-  return monday.toISOString().split('T')[0];
+  return toDateStrUTC8(monday);
 }
 
 export function renderMonthlyOverview(
@@ -46,7 +47,7 @@ export function renderMonthlyOverview(
 
     // Iterate through all dates in the range
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-      const dateStr = d.toISOString().split('T')[0];
+      const dateStr = toDateStrUTC8(d);
       
       let groupKey = dateStr;
       if (zoom === 'monthly') {
@@ -62,15 +63,15 @@ export function renderMonthlyOverview(
       }
 
       const group = groupedData.get(groupKey)!;
-      
+
       // Member joins
       group.new_members += joinsMap.get(dateStr) || 0;
 
+      // Skip Sundays from status counts
+      if (d.getDay() === 0) continue;
+
       // Status
-      let status: DayStatus = normalizeStatus(calendarData[dateStr]?.status || 'unknown');
-      if (status === 'unknown' && d.getDay() === 0) {
-        status = 'closed'; // Default Sunday
-      }
+      const status: DayStatus = normalizeStatus(calendarData[dateStr]?.status || 'unknown');
 
       if (status === 'open') group.open_days++;
       else if (status === 'closed') group.closed_days++;
@@ -79,8 +80,8 @@ export function renderMonthlyOverview(
 
     const today = new Date();
     const currentPeriod = zoom === 'monthly'
-      ? today.toISOString().substring(0, 7)
-      : getMonday(today.toISOString().split('T')[0]);
+      ? toDateStrUTC8(today).substring(0, 7)
+      : getMonday(toDateStrUTC8(today));
 
     const allLabels = Array.from(groupedData.keys()).sort().filter(l => l < currentPeriod);
     const totalPages = Math.ceil(allLabels.length / pageSize);

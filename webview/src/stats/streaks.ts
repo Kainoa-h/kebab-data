@@ -1,5 +1,6 @@
 import type { CalendarData, DayStatus } from '../types';
 import { STATUS_COLORS, normalizeStatus } from '../types';
+import { toDateStrUTC8 } from '../utils';
 
 interface StreakInfo {
   todayStatus: DayStatus;
@@ -18,7 +19,7 @@ function computeStreaks(calendarData: CalendarData): StreakInfo {
   const days: DayStatus[] = [];
 
   for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
-    const dateStr = d.toISOString().split('T')[0];
+    const dateStr = toDateStrUTC8(d);
     const record = calendarData[dateStr];
     let status: DayStatus;
     if (record) {
@@ -97,7 +98,7 @@ export function renderStreaks(container: HTMLDivElement, calendarData: CalendarD
     statCard(
       `${streakEmoji(currentStreakStatus, currentStreakLen)} Current streak`,
       `${currentStreakLen} day${currentStreakLen !== 1 ? 's' : ''}`,
-      `${statusLabel(currentStreakStatus).toLowerCase()} reported in a row`,
+      currentStreakStatus === 'unknown' ? 'someone go and check pls :(' : `${statusLabel(currentStreakStatus).toLowerCase()} reported in a row`,
       statusColor(currentStreakStatus)
     ),
     statCard(
