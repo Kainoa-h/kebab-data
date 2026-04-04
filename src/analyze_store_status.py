@@ -140,7 +140,7 @@ def llm_chat(
         "model": "qwen",
         "messages": messages_payload,
         "temperature": 0.0,
-        "max_tokens": 1024,
+        "max_tokens": 4096,
     }
     if force_json:
         body["response_format"] = {"type": "json_object"}
@@ -187,8 +187,43 @@ _TEXT_SYSTEM = (
     "Always respond with valid JSON only."
 )
 
+_TEXT_EXAMPLE_USER = """\
+Message date: 2026-04-02
+Sender: waikit
+Message: Kebab jiejie is not open for the next 3 days, reopening on Monday!
+
+Does this message CONFIRM (not ask) that the kebab stall is open or closed on specific dates?
+
+Rules:
+- Questions like "is she open today?" are NOT confirmations → relevant: false
+- Statements like "she's open!", "closed today", "not open tmr", "not open for the next 3 days" ARE confirmations
+- "not open" / "won't be open" / "isn't open" means status=closed
+- A single message may produce multiple entries (e.g. closed for 3 days + open on Monday)
+- Resolve relative expressions using the message date as reference:
+    today → 2026-04-02
+    tmr/tml/tomorrow → next calendar day
+    "next N days" → the N days starting from tomorrow (status applies to ALL N days)
+    "till end of the week" → remaining days of that ISO week
+    "till end of the month" → remaining days of that calendar month
+    "closed from 16/10 to 21/10" → inclusive date range, assume same year as message
+    "closed until 初七 (23rd)" → use the explicit date given in parentheses
+    "reopening on Monday" → find the next Monday after the message date
+- General patterns ("she closes on Sundays") → NOT a specific confirmation → relevant: false
+- Real-time reports ("she's open", "SHES OPEN", "open!") refer to today (2026-04-02)
+
+Return JSON only:
+  If confirming: {"relevant": true, "entries": [{"status": "open" or "closed", "dates": ["YYYY-MM-DD", ...]}]}
+  Otherwise:     {"relevant": false}
+"""
+
+_TEXT_EXAMPLE_ASSISTANT = (
+    '{"relevant": true, "entries": ['
+    '{"status": "closed", "dates": ["2026-04-03", "2026-04-04", "2026-04-05"]}, '
+    '{"status": "open", "dates": ["2026-04-06"]}'
+    "]}"
+)
+
 _TEXT_TEMPLATE = """\
-/no_think
 Message date: {msg_date}
 Sender: {sender}
 Message: {text}
@@ -197,11 +232,13 @@ Does this message CONFIRM (not ask) that the kebab stall is open or closed on sp
 
 Rules:
 - Questions like "is she open today?" are NOT confirmations → relevant: false
-- Statements like "she's open!", "closed today", "not open tmr" ARE confirmations
+- Statements like "she's open!", "closed today", "not open tmr", "not open for the next 3 days" ARE confirmations
+- "not open" / "won't be open" / "isn't open" means status=closed
+- A single message may produce multiple entries (e.g. closed for 3 days + open on Monday)
 - Resolve relative expressions using the message date as reference:
     today → {msg_date}
     tmr/tml/tomorrow → next calendar day
-    "next N days" → the N days starting from tomorrow
+    "next N days" → the N days starting from tomorrow (status applies to ALL N days)
     "till end of the week" → remaining days of that ISO week
     "till end of the month" → remaining days of that calendar month
     "closed from 16/10 to 21/10" → inclusive date range, assume same year as message
@@ -230,6 +267,8 @@ def classify_text(msg: dict) -> list[tuple[str, str]]:
     content = llm_chat(
         [
             {"role": "system", "content": _TEXT_SYSTEM},
+            {"role": "user", "content": _TEXT_EXAMPLE_USER},
+            {"role": "assistant", "content": _TEXT_EXAMPLE_ASSISTANT},
             {"role": "user", "content": prompt},
         ]
     )
@@ -351,7 +390,6 @@ _MEDIA_SYSTEM = (
 )
 
 _MEDIA_QUESTION = (
-    "/no_think\n"
     "Is there a kebab store or kebab food stall clearly visible in this image?\n"
     "If yes, is it open (staff present, lights on, serving customers) or "
     "closed (shutters down, empty, dark)?\n"
