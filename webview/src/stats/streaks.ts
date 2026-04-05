@@ -12,43 +12,46 @@ interface StreakInfo {
 }
 
 function computeStreaks(calendarData: CalendarData): StreakInfo {
-  const start = new Date('2025-04-01');
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const keys = Object.keys(calendarData).sort();
+  const start = keys.length > 0 ? new Date(keys[0]) : new Date('2025-04-01');
+  const todayStr = toDateStrUTC8(new Date());
 
   const days: DayStatus[] = [];
+  const streakDays: DayStatus[] = []; // excludes Sundays
 
-  for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
+  for (let d = new Date(start); toDateStrUTC8(d) <= todayStr; d.setDate(d.getDate() + 1)) {
+    const isSunday = d.getDay() === 0;
     const dateStr = toDateStrUTC8(d);
     const record = calendarData[dateStr];
     let status: DayStatus;
     if (record) {
       status = normalizeStatus(record.status);
-    } else if (d.getDay() === 0) {
+    } else if (isSunday) {
       status = 'closed';
     } else {
       status = 'unknown';
     }
     days.push(status);
+    if (!isSunday) streakDays.push(status);
   }
 
-  // Current streak: walk backwards from today
+  // Current streak: walk backwards from today (skipping Sundays)
   const todayStatus = days[days.length - 1] ?? 'unknown';
   let currentStreakLen = 0;
-  for (let i = days.length - 1; i >= 0; i--) {
-    if (days[i] === todayStatus) currentStreakLen++;
+  for (let i = streakDays.length - 1; i >= 0; i--) {
+    if (streakDays[i] === todayStatus) currentStreakLen++;
     else break;
   }
 
-  // Longest open streak: forward pass
+  // Longest open streak: forward pass (Sundays excluded)
   let longestOpen = 0, runOpen = 0;
-  for (const s of days) {
+  for (const s of streakDays) {
     if (s === 'open') { runOpen++; longestOpen = Math.max(longestOpen, runOpen); }
     else runOpen = 0;
   }
 
-  const totalOpen = days.filter(s => s === 'open').length;
-  const totalKnown = days.filter(s => s !== 'unknown').length;
+  const totalOpen = streakDays.filter(s => s === 'open').length;
+  const totalKnown = streakDays.filter(s => s !== 'unknown').length;
 
   return { todayStatus, currentStreakLen, currentStreakStatus: todayStatus, longestOpen, totalOpen, totalKnown };
 }
