@@ -13,8 +13,7 @@ const COLOR_NO_DATA = '#1e293b';
 export function renderCalendarHeatmap(containerSelector: string, calendarData: CalendarData) {
   const start = new Date('2025-04-01');
   const end = new Date('2026-04-30');
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const todayStr = toDateStrUTC8(new Date());
 
   const data: Array<{
     date: string;
@@ -28,7 +27,7 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
     const dateStr = toDateStrUTC8(d);
     const record = calendarData[dateStr];
-    const isFuture = d > today;
+    const isFuture = dateStr > todayStr;
 
     let status: DayStatus = normalizeStatus(record?.status || 'unknown');
     let isDefaultSunday = false;
@@ -38,10 +37,12 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
       isDefaultSunday = true;
     }
 
-    // value: 0=unknown(no reports), 1=open, 2=closed, 3=out of range
+    // value: 0=unknown(no reports), 1=open, 2=closed, 3=out of range, 4=default sunday
     let value: number;
     if (isFuture) {
       value = 3;
+    } else if (isDefaultSunday) {
+      value = 4;
     } else if (status === 'open') {
       value = 1;
     } else if (status === 'closed') {
@@ -77,12 +78,13 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
     scale: {
       color: {
         type: 'ordinal',
-        domain: [0, 1, 2, 3],
+        domain: [0, 1, 2, 3, 4],
         range: [
           STATUS_COLORS.unknown, // 0 = unknown (no reports)
           STATUS_COLORS.open,    // 1 = open
           STATUS_COLORS.closed,  // 2 = closed
-          COLOR_NO_DATA          // 3 = future / outside data range
+          COLOR_NO_DATA,         // 3 = future / outside data range
+          'url(#sunday-stripes)' // 4 = default sunday (jiejie's rest day)
         ]
       }
     }
@@ -104,7 +106,7 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
 
           let label = record.status.charAt(0).toUpperCase() + record.status.slice(1);
           if (record.isDefaultSunday) {
-            label += ' (Default — always closed on Sundays)';
+            label = "Jiejie's rest day 💓";
           } else if (record.contributors && record.contributors.length > 0) {
             label += ` — reported by: ${record.contributors.map(c => deAnon(c)).join(', ')}`;
           } else if (record.status === 'unknown') {
@@ -115,5 +117,16 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
         }
       }
     ]
-  ]);
+  ]).then(() => {
+    const svg = document.querySelector(`${containerSelector} svg`);
+    if (!svg) return;
+    const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    defs.innerHTML = `
+      <pattern id="sunday-stripes" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+        <rect width="4" height="4" fill="${COLOR_NO_DATA}"/>
+        <line x1="0" y1="0" x2="4" y2="4" stroke="#4b5563" stroke-width="1.2"/>
+      </pattern>
+    `;
+    svg.insertBefore(defs, svg.firstChild);
+  });
 }
