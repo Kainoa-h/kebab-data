@@ -2,7 +2,7 @@
   {
     "dow": 0,
     "label": "Mon",
-    "open": 14,
+    "open": 15,
     "closed": 3,
     "unknown": 30,
     "conflicted": 2,
@@ -51,15 +51,15 @@
     "closed": 5,
     "unknown": 44,
     "conflicted": 0,
-    "avg_messages": 2.4
+    "avg_messages": 3.4
   },
   {
     "dow": 6,
     "label": "Sun",
     "open": 0,
     "closed": 1,
-    "unknown": 48,
+    "unknown": 49,
     "conflicted": 0,
-    "avg_messages": 1.4
+    "avg_messages": 1.9
   }
 ]

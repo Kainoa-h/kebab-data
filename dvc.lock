@@ -20,32 +20,32 @@ stages:
       nfiles: 0
     - path: raw/media
       hash: md5
-      md5: 3fc2db6846a44b1e287965fe3f06b497.dir
-      size: 69137264
-      nfiles: 242
+      md5: acda87c3e83a9aa9b7ba3e900699d4cc.dir
+      size: 69956653
+      nfiles: 249
     - path: raw/members
       hash: md5
-      md5: bafaee968b216e3de7bbc06635f43301.dir
-      size: 542322
+      md5: f3fe4e19d7cb885d6bd3f2e092ee4b51.dir
+      size: 815753
       nfiles: 1
     - path: raw/messages
       hash: md5
-      md5: 7b5a46986b5234049c8681a0027e4d37.dir
-      size: 673206
-      nfiles: 199
+      md5: e630359c8a347c12b2b36015270b8831.dir
+      size: 702568
+      nfiles: 201
   analyze_store_status:
     cmd: python src/analyze_store_status.py
     deps:
     - path: raw/media
       hash: md5
-      md5: 3fc2db6846a44b1e287965fe3f06b497.dir
-      size: 69137264
-      nfiles: 242
+      md5: acda87c3e83a9aa9b7ba3e900699d4cc.dir
+      size: 69956653
+      nfiles: 249
     - path: raw/messages
       hash: md5
-      md5: 7b5a46986b5234049c8681a0027e4d37.dir
-      size: 673206
-      nfiles: 199
+      md5: e630359c8a347c12b2b36015270b8831.dir
+      size: 702568
+      nfiles: 201
     - path: src/analyze_store_status.py
       hash: md5
       md5: 9eaaf4c32f926f479a3f88d6b28bdf57
@@ -53,30 +53,30 @@ stages:
     outs:
     - path: processed/store_status
       hash: md5
-      md5: 75c50e46415782bf501c4e6ecbe31b31.dir
-      size: 160453
+      md5: 15bc2f027ea014330c05ec103558ee86.dir
+      size: 161917
       nfiles: 5
   prepare_web_data:
     cmd: python src/prepare_web_data.py
     deps:
     - path: processed/store_status/daily_status.jsonl
       hash: md5
-      md5: 592f617de72121e43b6945fb33de0913
-      size: 88898
+      md5: 633e6c4a7e72fb10927ca09ca224de83
+      size: 89636
     - path: processed/store_status/user_attributions.json
       hash: md5
-      md5: 70ae9ef438a31aee5ffd47f20223a819
-      size: 15209
+      md5: 45b2083e2fa8623f020a00154912b4bb
+      size: 15386
     - path: raw/members
       hash: md5
-      md5: bafaee968b216e3de7bbc06635f43301.dir
-      size: 542322
+      md5: f3fe4e19d7cb885d6bd3f2e092ee4b51.dir
+      size: 815753
       nfiles: 1
     - path: raw/messages
       hash: md5
-      md5: 7b5a46986b5234049c8681a0027e4d37.dir
-      size: 673206
-      nfiles: 199
+      md5: e630359c8a347c12b2b36015270b8831.dir
+      size: 702568
+      nfiles: 201
     - path: src/prepare_web_data.py
       hash: md5
       md5: 11d1bc61c9afed348aeac82d6d1088a3
@@ -84,6 +84,6 @@ stages:
     outs:
     - path: processed/web_data
       hash: md5
-      md5: 6ec79684d5ce4a12bc752258803f1e6a.dir
-      size: 403610
+      md5: 6ae4c7bab264901a95dc5a3b169e2d9a.dir
+      size: 406380
       nfiles: 23

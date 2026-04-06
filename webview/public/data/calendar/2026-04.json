@@ -20,5 +20,15 @@
   "2026-04-04": {
     "status": "unknown",
     "contributors": []
+  },
+  "2026-04-05": {
+    "status": "unknown",
+    "contributors": []
+  },
+  "2026-04-06": {
+    "status": "open",
+    "contributors": [
+      "CrispVole"
+    ]
   }
 }

@@ -991,7 +991,17 @@
   },
   {
     "date": "2026-04-04",
-    "total": 12,
+    "total": 62,
     "attributed": 0
+  },
+  {
+    "date": "2026-04-05",
+    "total": 29,
+    "attributed": 0
+  },
+  {
+    "date": "2026-04-06",
+    "total": 4,
+    "attributed": 2
   }
 ]

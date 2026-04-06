@@ -1,45 +1,51 @@
 [
   {
     "emoji": "\ud83d\udd25",
-    "total_count": 733,
+    "total_count": 743,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
   {
     "emoji": "\u2764",
-    "total_count": 379,
+    "total_count": 418,
     "unique_users": 0,
-    "most_active_day": "2026-03-26"
+    "most_active_day": "2026-04-05"
   },
   {
     "emoji": "\ud83e\udd70",
-    "total_count": 373,
+    "total_count": 381,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
   {
     "emoji": "\ud83d\ude2d",
-    "total_count": 317,
+    "total_count": 332,
     "unique_users": 0,
     "most_active_day": "2026-04-02"
   },
   {
     "emoji": "\ud83d\uddff",
-    "total_count": 97,
+    "total_count": 99,
     "unique_users": 0,
     "most_active_day": "2026-01-20"
   },
   {
     "emoji": "\ud83d\udc4e",
-    "total_count": 81,
+    "total_count": 82,
     "unique_users": 0,
     "most_active_day": "2026-03-25"
   },
   {
     "emoji": "\ud83d\udc4d",
-    "total_count": 56,
+    "total_count": 59,
     "unique_users": 0,
     "most_active_day": "2026-02-24"
+  },
+  {
+    "emoji": "\ud83e\udd23",
+    "total_count": 50,
+    "unique_users": 0,
+    "most_active_day": "2026-01-20"
   },
   {
     "emoji": "\ud83d\ude22",
@@ -48,14 +54,8 @@
     "most_active_day": "2026-02-11"
   },
   {
-    "emoji": "\ud83e\udd23",
-    "total_count": 48,
-    "unique_users": 0,
-    "most_active_day": "2026-01-20"
-  },
-  {
     "emoji": "\ud83d\ude4f",
-    "total_count": 45,
+    "total_count": 47,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
@@ -79,7 +79,7 @@
   },
   {
     "emoji": "\ud83d\udd4a",
-    "total_count": 24,
+    "total_count": 25,
     "unique_users": 0,
     "most_active_day": "2025-09-30"
   },
@@ -108,16 +108,16 @@
     "most_active_day": "2025-10-01"
   },
   {
+    "emoji": "\ud83e\udd2a",
+    "total_count": 14,
+    "unique_users": 0,
+    "most_active_day": "2026-04-05"
+  },
+  {
     "emoji": "\ud83d\udca9",
     "total_count": 12,
     "unique_users": 0,
     "most_active_day": "2025-10-09"
-  },
-  {
-    "emoji": "\ud83e\udd2a",
-    "total_count": 11,
-    "unique_users": 0,
-    "most_active_day": "2026-02-24"
   },
   {
     "emoji": "\ud83e\udd29",
@@ -144,22 +144,22 @@
     "most_active_day": "2025-10-01"
   },
   {
-    "emoji": "\ud83e\udd2f",
-    "total_count": 8,
+    "emoji": "\ud83d\udc40",
+    "total_count": 9,
     "unique_users": 0,
-    "most_active_day": "2025-10-21"
+    "most_active_day": "2026-01-23"
   },
   {
     "emoji": "\ud83d\ude28",
-    "total_count": 8,
+    "total_count": 9,
     "unique_users": 0,
     "most_active_day": "2025-11-25"
   },
   {
-    "emoji": "\ud83d\udc40",
-    "total_count": 7,
+    "emoji": "\ud83e\udd2f",
+    "total_count": 8,
     "unique_users": 0,
-    "most_active_day": "2026-01-23"
+    "most_active_day": "2025-10-21"
   },
   {
     "emoji": "\ud83e\udee1",
@@ -222,6 +222,12 @@
     "most_active_day": "2026-02-03"
   },
   {
+    "emoji": "\ud83d\udc98",
+    "total_count": 4,
+    "unique_users": 0,
+    "most_active_day": "2026-03-15"
+  },
+  {
     "emoji": "\ud83d\udc4c",
     "total_count": 3,
     "unique_users": 0,
@@ -280,12 +286,6 @@
     "total_count": 3,
     "unique_users": 0,
     "most_active_day": "2026-01-29"
-  },
-  {
-    "emoji": "\ud83d\udc98",
-    "total_count": 3,
-    "unique_users": 0,
-    "most_active_day": "2026-03-15"
   },
   {
     "emoji": "ReactionCustomEmoji(document_id=5388939837598347400)",
@@ -366,6 +366,12 @@
     "most_active_day": "2026-01-27"
   },
   {
+    "emoji": "\ud83e\udd13",
+    "total_count": 2,
+    "unique_users": 0,
+    "most_active_day": "2026-02-03"
+  },
+  {
     "emoji": "\ud83e\udd1d",
     "total_count": 2,
     "unique_users": 0,
@@ -430,12 +436,6 @@
     "total_count": 1,
     "unique_users": 0,
     "most_active_day": "2026-01-27"
-  },
-  {
-    "emoji": "\ud83e\udd13",
-    "total_count": 1,
-    "unique_users": 0,
-    "most_active_day": "2026-02-03"
   },
   {
     "emoji": "ReactionCustomEmoji(document_id=5260423884842216002)",
