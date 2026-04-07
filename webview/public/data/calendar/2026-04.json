@@ -28,7 +28,16 @@
   "2026-04-06": {
     "status": "open",
     "contributors": [
-      "CrispVole"
+      "CrispVole",
+      "DaringToad",
+      "FancyDrake2"
+    ]
+  },
+  "2026-04-07": {
+    "status": "open",
+    "contributors": [
+      "GrandCrane",
+      "LonelyWeasel"
     ]
   }
 }

@@ -1,25 +1,25 @@
 [
   {
     "emoji": "\ud83d\udd25",
-    "total_count": 743,
+    "total_count": 749,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
   {
     "emoji": "\u2764",
-    "total_count": 418,
+    "total_count": 432,
     "unique_users": 0,
     "most_active_day": "2026-04-05"
   },
   {
     "emoji": "\ud83e\udd70",
-    "total_count": 381,
+    "total_count": 386,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
   {
     "emoji": "\ud83d\ude2d",
-    "total_count": 332,
+    "total_count": 337,
     "unique_users": 0,
     "most_active_day": "2026-04-02"
   },
@@ -31,7 +31,7 @@
   },
   {
     "emoji": "\ud83d\udc4e",
-    "total_count": 82,
+    "total_count": 83,
     "unique_users": 0,
     "most_active_day": "2026-03-25"
   },
@@ -43,7 +43,7 @@
   },
   {
     "emoji": "\ud83e\udd23",
-    "total_count": 50,
+    "total_count": 52,
     "unique_users": 0,
     "most_active_day": "2026-01-20"
   },
@@ -73,7 +73,7 @@
   },
   {
     "emoji": "\ud83d\ude0d",
-    "total_count": 26,
+    "total_count": 27,
     "unique_users": 0,
     "most_active_day": "2026-02-02"
   },
@@ -163,21 +163,21 @@
   },
   {
     "emoji": "\ud83e\udee1",
-    "total_count": 6,
+    "total_count": 7,
     "unique_users": 0,
     "most_active_day": "2025-08-21"
+  },
+  {
+    "emoji": "\ud83e\udd74",
+    "total_count": 6,
+    "unique_users": 0,
+    "most_active_day": "2025-04-25"
   },
   {
     "emoji": "\ud83d\ude31",
     "total_count": 6,
     "unique_users": 0,
     "most_active_day": "2026-02-24"
-  },
-  {
-    "emoji": "\ud83e\udd74",
-    "total_count": 5,
-    "unique_users": 0,
-    "most_active_day": "2025-04-25"
   },
   {
     "emoji": "\ud83e\udd2e",
@@ -318,6 +318,12 @@
     "most_active_day": "2025-10-25"
   },
   {
+    "emoji": "\ud83c\udf1a",
+    "total_count": 2,
+    "unique_users": 0,
+    "most_active_day": "2025-10-27"
+  },
+  {
     "emoji": "ReactionCustomEmoji(document_id=5429532071729053856)",
     "total_count": 2,
     "unique_users": 0,
@@ -390,6 +396,18 @@
     "most_active_day": "2026-02-24"
   },
   {
+    "emoji": "\ud83d\ude10",
+    "total_count": 2,
+    "unique_users": 0,
+    "most_active_day": "2026-03-23"
+  },
+  {
+    "emoji": "ReactionCustomEmoji(document_id=5809838454988607615)",
+    "total_count": 2,
+    "unique_users": 0,
+    "most_active_day": "2026-03-25"
+  },
+  {
     "emoji": "ReactionCustomEmoji(document_id=5474177367712735995)",
     "total_count": 1,
     "unique_users": 0,
@@ -406,12 +424,6 @@
     "total_count": 1,
     "unique_users": 0,
     "most_active_day": "2025-10-21"
-  },
-  {
-    "emoji": "\ud83c\udf1a",
-    "total_count": 1,
-    "unique_users": 0,
-    "most_active_day": "2025-10-27"
   },
   {
     "emoji": "\ud83d\ude4a",
@@ -466,17 +478,5 @@
     "total_count": 1,
     "unique_users": 0,
     "most_active_day": "2026-03-20"
-  },
-  {
-    "emoji": "\ud83d\ude10",
-    "total_count": 1,
-    "unique_users": 0,
-    "most_active_day": "2026-03-23"
-  },
-  {
-    "emoji": "ReactionCustomEmoji(document_id=5809838454988607615)",
-    "total_count": 1,
-    "unique_users": 0,
-    "most_active_day": "2026-03-25"
   }
 ]

@@ -2023,9 +2023,34 @@
   },
   {
     "date": "2026-04-06",
-    "count": 1,
+    "count": 9,
     "members": [
-      "CrispFox2"
+      "AncientOwl2",
+      "BoldFerret2",
+      "CrispFox2",
+      "GentleBison",
+      "KindOtter2",
+      "LuckyDrake2",
+      "QuickGecko",
+      "RustyJackal",
+      "SleepyMoth"
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "count": 11,
+    "members": [
+      "AncientMink",
+      "CrispSalamander2",
+      "GentleOtter2",
+      "GiantBuffalo2",
+      "LonelyMarten",
+      "MistyOwl2",
+      "MistySwift2",
+      "QuietBuffalo",
+      "QuietDeer",
+      "RustyDrake",
+      "SleepyGoose2"
     ]
   }
 ]

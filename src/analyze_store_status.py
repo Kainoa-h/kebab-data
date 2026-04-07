@@ -155,8 +155,8 @@ def llm_chat(
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             data = json.loads(resp.read())
             return data["choices"][0]["message"]["content"]
-    except urllib.error.URLError as e:
-        log.warning("LLM unreachable: %s", e)
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        log.warning("LLM unreachable or timed out: %s", e)
     except (KeyError, IndexError, json.JSONDecodeError) as e:
         log.warning("LLM response parse error: %s", e)
     return None
@@ -437,7 +437,7 @@ def classify_media(msg: dict) -> Optional[tuple[str, str]]:
             },
         ],
         force_json=False,
-        timeout=120,
+        timeout=220,
     )
     result = extract_json(content)
     if not result or not result.get("has_store"):

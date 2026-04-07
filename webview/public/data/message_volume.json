@@ -1001,7 +1001,12 @@
   },
   {
     "date": "2026-04-06",
-    "total": 4,
+    "total": 23,
+    "attributed": 5
+  },
+  {
+    "date": "2026-04-07",
+    "total": 24,
     "attributed": 2
   }
 ]
