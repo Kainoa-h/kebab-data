@@ -1893,10 +1893,10 @@
     "alias": "DustyParrot",
     "join_date": "2025-10-07",
     "join_method": "unknown",
-    "total_attributions": 0,
-    "open_attributions": 0,
+    "total_attributions": 1,
+    "open_attributions": 1,
     "closed_attributions": 0,
-    "total_reactions_earned": 0
+    "total_reactions_earned": 2
   },
   {
     "alias": "LonelyOkapi",
@@ -9451,6 +9451,15 @@
   },
   {
     "alias": "MistySwift2",
+    "join_date": "2026-04-07",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "NobleOwl",
     "join_date": "2026-04-07",
     "join_method": "unknown",
     "total_attributions": 0,

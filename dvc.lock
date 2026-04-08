@@ -25,14 +25,14 @@ stages:
       nfiles: 253
     - path: raw/members
       hash: md5
-      md5: 7260ce19eb0ea1300f8aa7d54043727d.dir
-      size: 1094218
+      md5: b32523769221f4fd455424b1580a7646.dir
+      size: 1372693
       nfiles: 1
     - path: raw/messages
       hash: md5
-      md5: a6094e30e949f6698c8b18f6a269d41f.dir
-      size: 717275
-      nfiles: 202
+      md5: 6f57db0f8ba4d4dad07b7e6c7d5fc0db.dir
+      size: 718238
+      nfiles: 203
   analyze_store_status:
     cmd: python src/analyze_store_status.py
     deps:
@@ -43,9 +43,9 @@ stages:
       nfiles: 253
     - path: raw/messages
       hash: md5
-      md5: a6094e30e949f6698c8b18f6a269d41f.dir
-      size: 717275
-      nfiles: 202
+      md5: 6f57db0f8ba4d4dad07b7e6c7d5fc0db.dir
+      size: 718238
+      nfiles: 203
     - path: src/analyze_store_status.py
       hash: md5
       md5: 9759756d9b928995ee793f7209de1bed
@@ -53,30 +53,30 @@ stages:
     outs:
     - path: processed/store_status
       hash: md5
-      md5: 4d94b9a4b0e6a46a3c51bcdf6a571e1f.dir
-      size: 165614
+      md5: d3d65e57dcd245121f22033652fb01e9.dir
+      size: 166366
       nfiles: 5
   prepare_web_data:
     cmd: python src/prepare_web_data.py
     deps:
     - path: processed/store_status/daily_status.jsonl
       hash: md5
-      md5: 7c2a45162ccf6adae5028a8893161f65
-      size: 91453
+      md5: a73611aedb840b0901f49247c8b165ed
+      size: 91792
     - path: processed/store_status/user_attributions.json
       hash: md5
-      md5: c3462abe1906796c812f313d86430b2c
-      size: 15546
+      md5: dc683c4394104cc5597810cc4aa80aae
+      size: 15712
     - path: raw/members
       hash: md5
-      md5: 7260ce19eb0ea1300f8aa7d54043727d.dir
-      size: 1094218
+      md5: b32523769221f4fd455424b1580a7646.dir
+      size: 1372693
       nfiles: 1
     - path: raw/messages
       hash: md5
-      md5: a6094e30e949f6698c8b18f6a269d41f.dir
-      size: 717275
-      nfiles: 202
+      md5: 6f57db0f8ba4d4dad07b7e6c7d5fc0db.dir
+      size: 718238
+      nfiles: 203
     - path: src/prepare_web_data.py
       hash: md5
       md5: 11d1bc61c9afed348aeac82d6d1088a3
@@ -84,6 +84,6 @@ stages:
     outs:
     - path: processed/web_data
       hash: md5
-      md5: 31f06b0457201311fa6947dc1f425359.dir
-      size: 412695
+      md5: 283806dcd8dd3fdd099a9a87d1514c56.dir
+      size: 413160
       nfiles: 23
