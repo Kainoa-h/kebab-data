@@ -4,6 +4,8 @@ Telegram group scraper + LLM-based store status classifier. Tracks contributions
 
 Mini project vibe coded with Sonnet 4.6 and Gemini 3.1 Pro
 
+Checkout the visualisations for the data collected in this pipeline on [the website](https://kebab.kainoaho.com/)
+
 Read what this repo is about it in my [blog post](https://www.kainoaho.com/blog/kebab-data-pipeline/)
 
 ## Pipeline
