@@ -43,7 +43,15 @@
   "2026-04-08": {
     "status": "open",
     "contributors": [
-      "DustyParrot"
+      "DustyParrot",
+      "KeenToad"
+    ]
+  },
+  "2026-04-09": {
+    "status": "open",
+    "contributors": [
+      "BrightGoose",
+      "FancyDrake2"
     ]
   }
 }

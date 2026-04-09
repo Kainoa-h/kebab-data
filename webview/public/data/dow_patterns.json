@@ -24,16 +24,16 @@
     "closed": 1,
     "unknown": 21,
     "conflicted": 1,
-    "avg_messages": 6.5
+    "avg_messages": 6.9
   },
   {
     "dow": 3,
     "label": "Thu",
-    "open": 26,
+    "open": 27,
     "closed": 2,
     "unknown": 22,
     "conflicted": 0,
-    "avg_messages": 7.6
+    "avg_messages": 8.0
   },
   {
     "dow": 4,
