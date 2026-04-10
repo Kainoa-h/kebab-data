@@ -33,16 +33,16 @@
     "closed": 2,
     "unknown": 22,
     "conflicted": 0,
-    "avg_messages": 8.0
+    "avg_messages": 8.1
   },
   {
     "dow": 4,
     "label": "Fri",
-    "open": 22,
+    "open": 23,
     "closed": 3,
     "unknown": 25,
     "conflicted": 0,
-    "avg_messages": 7.6
+    "avg_messages": 7.7
   },
   {
     "dow": 5,

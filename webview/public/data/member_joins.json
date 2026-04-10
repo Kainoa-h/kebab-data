@@ -2069,24 +2069,41 @@
   },
   {
     "date": "2026-04-09",
-    "count": 16,
+    "count": 20,
     "members": [
       "BoldDingo",
       "BraveJackal",
+      "BrightShrew",
       "DaringNewt2",
+      "DaringSnipe",
       "FierceSeal",
       "HappyDeer4",
       "JollyStoat",
       "LonelyGecko",
       "LonelyHawk",
+      "LuckyFalcon",
       "LuckyLynx2",
       "MightyBison",
       "MightySalamander",
+      "OddJaguar2",
       "ProudHawk",
       "SassyBuffalo",
       "SereneCrow2",
       "SereneWeasel",
       "ShinyNewt2"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "count": 7,
+    "members": [
+      "AncientJackal",
+      "BraveEagle",
+      "FierceHeron",
+      "KeenMoose",
+      "LivelyJackal",
+      "LonelyBuffalo2",
+      "SleepyEagle3"
     ]
   }
 ]
