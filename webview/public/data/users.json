@@ -75,10 +75,10 @@
     "alias": "BrightBuffalo",
     "join_date": "2025-04-23",
     "join_method": "unknown",
-    "total_attributions": 1,
+    "total_attributions": 2,
     "open_attributions": 1,
-    "closed_attributions": 0,
-    "total_reactions_earned": 17
+    "closed_attributions": 1,
+    "total_reactions_earned": 32
   },
   {
     "alias": "IcyMarten",
@@ -417,10 +417,10 @@
     "alias": "HiddenMoth",
     "join_date": "2025-04-23",
     "join_method": "admin",
-    "total_attributions": 5,
-    "open_attributions": 5,
+    "total_attributions": 7,
+    "open_attributions": 7,
     "closed_attributions": 0,
-    "total_reactions_earned": 66
+    "total_reactions_earned": 69
   },
   {
     "alias": "FluffyShark2",
@@ -1779,7 +1779,7 @@
     "total_attributions": 0,
     "open_attributions": 0,
     "closed_attributions": 0,
-    "total_reactions_earned": 12
+    "total_reactions_earned": 15
   },
   {
     "alias": "SilentSnipe",
@@ -4308,7 +4308,7 @@
     "total_attributions": 0,
     "open_attributions": 0,
     "closed_attributions": 0,
-    "total_reactions_earned": 0
+    "total_reactions_earned": 1
   },
   {
     "alias": "OddOtter",
@@ -5574,10 +5574,10 @@
     "alias": "FancyDrake2",
     "join_date": "2026-02-20",
     "join_method": "unknown",
-    "total_attributions": 9,
-    "open_attributions": 7,
+    "total_attributions": 10,
+    "open_attributions": 8,
     "closed_attributions": 2,
-    "total_reactions_earned": 34
+    "total_reactions_earned": 39
   },
   {
     "alias": "BoldBear2",
@@ -5973,7 +5973,7 @@
     "total_attributions": 0,
     "open_attributions": 0,
     "closed_attributions": 0,
-    "total_reactions_earned": 8
+    "total_reactions_earned": 9
   },
   {
     "alias": "LonelyVole",
@@ -8997,7 +8997,7 @@
     "total_attributions": 0,
     "open_attributions": 0,
     "closed_attributions": 0,
-    "total_reactions_earned": 0
+    "total_reactions_earned": 3
   },
   {
     "alias": "SilentCrow",
@@ -9654,7 +9654,7 @@
     "total_attributions": 0,
     "open_attributions": 0,
     "closed_attributions": 0,
-    "total_reactions_earned": 6
+    "total_reactions_earned": 10
   },
   {
     "alias": "BrightShrew",
@@ -9690,7 +9690,7 @@
     "total_attributions": 0,
     "open_attributions": 0,
     "closed_attributions": 0,
-    "total_reactions_earned": 0
+    "total_reactions_earned": 8
   },
   {
     "alias": "MightyBison",
@@ -9720,7 +9720,34 @@
     "total_reactions_earned": 0
   },
   {
+    "alias": "KeenOkapi2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
     "alias": "BraveEagle",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "JollyEagle2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "LivelyShark",
     "join_date": "2026-04-10",
     "join_method": "unknown",
     "total_attributions": 0,
@@ -9738,6 +9765,42 @@
     "total_reactions_earned": 1
   },
   {
+    "alias": "HumbleMink",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "SassyToad2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "LuckyOwl2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "SlickCrow2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 2
+  },
+  {
     "alias": "KeenMoose",
     "join_date": "2026-04-10",
     "join_method": "invite_link",
@@ -9747,7 +9810,25 @@
     "total_reactions_earned": 0
   },
   {
+    "alias": "FierceShrew2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
     "alias": "LonelyBuffalo2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "HumbleRaven2",
     "join_date": "2026-04-10",
     "join_method": "unknown",
     "total_attributions": 0,
@@ -9774,8 +9855,53 @@
     "total_reactions_earned": 0
   },
   {
+    "alias": "SassyDrake2",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
     "alias": "AncientJackal",
     "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "GentleNewt",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "FancyRaven",
+    "join_date": "2026-04-10",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "BraveStoat",
+    "join_date": "2026-04-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "IcyFox",
+    "join_date": "2026-04-11",
     "join_method": "unknown",
     "total_attributions": 0,
     "open_attributions": 0,
@@ -9834,7 +9960,7 @@
     "total_attributions": 15,
     "open_attributions": 13,
     "closed_attributions": 2,
-    "total_reactions_earned": 517
+    "total_reactions_earned": 521
   },
   {
     "alias": "DaringHawk",
