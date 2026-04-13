@@ -390,10 +390,10 @@
     "alias": "OddShark",
     "join_date": "2025-04-23",
     "join_method": "admin",
-    "total_attributions": 0,
-    "open_attributions": 0,
+    "total_attributions": 1,
+    "open_attributions": 1,
     "closed_attributions": 0,
-    "total_reactions_earned": 6
+    "total_reactions_earned": 14
   },
   {
     "alias": "SpicyMoth",
@@ -9902,6 +9902,33 @@
   {
     "alias": "IcyFox",
     "join_date": "2026-04-11",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "SpicyShark",
+    "join_date": "2026-04-12",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "RustyQuail",
+    "join_date": "2026-04-13",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "PluckyBuffalo",
+    "join_date": "2026-04-13",
     "join_method": "unknown",
     "total_attributions": 0,
     "open_attributions": 0,
