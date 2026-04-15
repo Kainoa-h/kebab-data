@@ -2135,10 +2135,78 @@
   },
   {
     "date": "2026-04-13",
-    "count": 2,
+    "count": 10,
     "members": [
+      "BoldRobin2",
+      "GoldenGoose2",
+      "HumbleSnipe",
       "PluckyBuffalo",
-      "RustyQuail"
+      "PluckyRaven",
+      "ProudLemur2",
+      "ProudStoat2",
+      "RustyQuail",
+      "SilentGecko",
+      "SlickMarten"
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "count": 29,
+    "members": [
+      "BoldSeal",
+      "CalmRobin",
+      "DaringFerret2",
+      "DarkBadger",
+      "DustySeal2",
+      "EagerHeron2",
+      "FancyVole5",
+      "HiddenKoala",
+      "HumbleSeal",
+      "IcyOkapi",
+      "KeenPuffin",
+      "KindDingo2",
+      "KindFox",
+      "LonelyParrot",
+      "MightyMarten",
+      "MightyOtter",
+      "MightyOtter2",
+      "MightyOtter3",
+      "MightyPuffin",
+      "MistyShark2",
+      "PluckyLemur",
+      "QuickShark3",
+      "QuickVole2",
+      "QuietCrow",
+      "QuietParrot",
+      "ShinySalamander",
+      "SilentRobin",
+      "SleepyDeer",
+      "TinyGoose3"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "count": 19,
+    "members": [
+      "BrightSalamander",
+      "CalmBison",
+      "CalmOwl2",
+      "CleverJackal2",
+      "EagerFox",
+      "EagerHeron",
+      "GiantSalamander2",
+      "GoldenGecko",
+      "GrumpyIbis",
+      "HappyCrow",
+      "IcyBuffalo2",
+      "KeenBuffalo",
+      "LivelyMarten",
+      "LonelyStoat",
+      "SassyFalcon",
+      "SassyMarten2",
+      "SleepyWeasel",
+      "SwiftMoth",
+      "TinySeal"
     ]
   }
 ]

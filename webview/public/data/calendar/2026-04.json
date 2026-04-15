@@ -75,7 +75,26 @@
   "2026-04-13": {
     "status": "open",
     "contributors": [
+      "KeenBear",
+      "LonelyJackal",
       "OddShark"
+    ]
+  },
+  "2026-04-14": {
+    "status": "open",
+    "contributors": [
+      "FierceBadger",
+      "LonelyWeasel"
+    ]
+  },
+  "2026-04-15": {
+    "status": "open",
+    "contributors": [
+      "FancyDrake2",
+      "HappySalamander2",
+      "KeenBear",
+      "MightySnipe",
+      "SlickMarten"
     ]
   }
 }
