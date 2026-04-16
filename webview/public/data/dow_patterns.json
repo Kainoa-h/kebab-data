@@ -29,11 +29,11 @@
   {
     "dow": 3,
     "label": "Thu",
-    "open": 27,
+    "open": 28,
     "closed": 2,
     "unknown": 22,
     "conflicted": 0,
-    "avg_messages": 8.1
+    "avg_messages": 7.9
   },
   {
     "dow": 4,
