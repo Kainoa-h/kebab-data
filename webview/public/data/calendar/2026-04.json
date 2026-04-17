@@ -100,7 +100,14 @@
   "2026-04-16": {
     "status": "open",
     "contributors": [
-      "FierceBadger"
+      "FierceBadger",
+      "GiantGecko"
+    ]
+  },
+  "2026-04-17": {
+    "status": "open",
+    "contributors": [
+      "MistyShrew"
     ]
   }
 }

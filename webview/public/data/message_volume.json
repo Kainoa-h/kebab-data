@@ -1051,7 +1051,12 @@
   },
   {
     "date": "2026-04-16",
-    "total": 2,
+    "total": 10,
+    "attributed": 3
+  },
+  {
+    "date": "2026-04-17",
+    "total": 5,
     "attributed": 2
   }
 ]
