@@ -121,11 +121,11 @@
   },
   {
     "month": "2026-04",
-    "new_members": 176,
-    "total_messages": 446,
-    "attributed_messages": 37,
+    "new_members": 209,
+    "total_messages": 495,
+    "attributed_messages": 43,
     "open_days": 11,
-    "closed_days": 1,
+    "closed_days": 3,
     "unknown_days": 4,
     "conflicted_days": 1
   }

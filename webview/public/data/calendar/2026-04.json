@@ -107,7 +107,23 @@
   "2026-04-17": {
     "status": "open",
     "contributors": [
-      "MistyShrew"
+      "KeenBear",
+      "KindDeer",
+      "MistyShrew",
+      "SereneSeal",
+      "SilentGecko"
+    ]
+  },
+  "2026-04-18": {
+    "status": "closed",
+    "contributors": [
+      "TinyShrew2"
+    ]
+  },
+  "2026-04-19": {
+    "status": "closed",
+    "contributors": [
+      "KeenBear"
     ]
   }
 }

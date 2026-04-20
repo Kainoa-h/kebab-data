@@ -1,13 +1,13 @@
 [
   {
     "type": "text",
-    "total": 1966,
-    "attributed": 18
+    "total": 2007,
+    "attributed": 19
   },
   {
     "type": "photo",
-    "total": 142,
-    "attributed": 108
+    "total": 147,
+    "attributed": 113
   },
   {
     "type": "video_note",
@@ -16,12 +16,12 @@
   },
   {
     "type": "sticker",
-    "total": 82,
+    "total": 84,
     "attributed": 0
   },
   {
     "type": "video",
-    "total": 31,
+    "total": 32,
     "attributed": 0
   }
 ]

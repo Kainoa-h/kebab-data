@@ -42,24 +42,24 @@
     "closed": 3,
     "unknown": 25,
     "conflicted": 0,
-    "avg_messages": 8.3
+    "avg_messages": 8.7
   },
   {
     "dow": 5,
     "label": "Sat",
     "open": 1,
-    "closed": 6,
+    "closed": 7,
     "unknown": 44,
     "conflicted": 0,
-    "avg_messages": 3.4
+    "avg_messages": 3.7
   },
   {
     "dow": 6,
     "label": "Sun",
     "open": 0,
-    "closed": 1,
+    "closed": 2,
     "unknown": 50,
     "conflicted": 0,
-    "avg_messages": 1.9
+    "avg_messages": 2.1
   }
 ]

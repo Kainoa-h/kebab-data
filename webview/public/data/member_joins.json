@@ -2223,9 +2223,54 @@
   },
   {
     "date": "2026-04-17",
-    "count": 1,
+    "count": 16,
     "members": [
-      "IcyOwl"
+      "BraveShrew2",
+      "CrispDrake",
+      "DaringFinch",
+      "DaringMoose",
+      "EarlyGoose2",
+      "FancyBison",
+      "FluffyOkapi",
+      "IcyEagle",
+      "IcyOwl",
+      "ModestHawk",
+      "QuickHeron",
+      "RapidOkapi2",
+      "SilentSnipe2",
+      "SleepyJackal2",
+      "SlickOwl",
+      "SwiftShark"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "count": 12,
+    "members": [
+      "AncientSwift",
+      "DaringDrake",
+      "DarkRaven2",
+      "EagerDeer",
+      "HiddenJay2",
+      "HiddenShrew",
+      "ModestQuail2",
+      "NobleDeer",
+      "ProudSwift",
+      "RustyOtter",
+      "SwiftCrane2",
+      "TinyShrew2"
+    ]
+  },
+  {
+    "date": "2026-04-19",
+    "count": 6,
+    "members": [
+      "AncientHawk",
+      "HiddenMoose3",
+      "RapidHeron4",
+      "RustyOtter2",
+      "SereneHawk",
+      "TinyMoose3"
     ]
   }
 ]
