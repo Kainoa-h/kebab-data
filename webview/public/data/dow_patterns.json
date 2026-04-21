@@ -6,12 +6,12 @@
     "closed": 3,
     "unknown": 30,
     "conflicted": 3,
-    "avg_messages": 6.1
+    "avg_messages": 6.2
   },
   {
     "dow": 1,
     "label": "Tue",
-    "open": 23,
+    "open": 24,
     "closed": 2,
     "unknown": 25,
     "conflicted": 1,

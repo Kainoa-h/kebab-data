@@ -2275,13 +2275,21 @@
   },
   {
     "date": "2026-04-20",
-    "count": 5,
+    "count": 6,
     "members": [
+      "HiddenSalamander2",
       "KeenMarten",
       "MightyJay3",
       "OddKoala2",
       "QuickFinch",
       "SlickNewt"
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "count": 1,
+    "members": [
+      "RustyToad"
     ]
   }
 ]

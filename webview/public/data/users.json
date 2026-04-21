@@ -453,10 +453,10 @@
     "alias": "HiddenMoth",
     "join_date": "2025-04-23",
     "join_method": "admin",
-    "total_attributions": 7,
-    "open_attributions": 7,
+    "total_attributions": 8,
+    "open_attributions": 8,
     "closed_attributions": 0,
-    "total_reactions_earned": 69
+    "total_reactions_earned": 77
   },
   {
     "alias": "FluffyShark2",
@@ -4971,10 +4971,10 @@
     "alias": "FluffyRobin",
     "join_date": "2026-02-06",
     "join_method": "unknown",
-    "total_attributions": 1,
-    "open_attributions": 1,
+    "total_attributions": 3,
+    "open_attributions": 3,
     "closed_attributions": 0,
-    "total_reactions_earned": 8
+    "total_reactions_earned": 14
   },
   {
     "alias": "GoldenWeasel",
@@ -5577,7 +5577,7 @@
     "total_attributions": 12,
     "open_attributions": 10,
     "closed_attributions": 2,
-    "total_reactions_earned": 44
+    "total_reactions_earned": 48
   },
   {
     "alias": "SwiftSnipe",
@@ -5952,10 +5952,10 @@
     "alias": "KindDeer",
     "join_date": "2026-03-08",
     "join_method": "unknown",
-    "total_attributions": 4,
-    "open_attributions": 3,
+    "total_attributions": 6,
+    "open_attributions": 5,
     "closed_attributions": 1,
-    "total_reactions_earned": 27
+    "total_reactions_earned": 30
   },
   {
     "alias": "JollyEagle",
@@ -9993,8 +9993,8 @@
     "alias": "HumbleSnipe",
     "join_date": "2026-04-13",
     "join_method": "unknown",
-    "total_attributions": 0,
-    "open_attributions": 0,
+    "total_attributions": 2,
+    "open_attributions": 2,
     "closed_attributions": 0,
     "total_reactions_earned": 1
   },
@@ -10827,6 +10827,15 @@
     "total_reactions_earned": 0
   },
   {
+    "alias": "HiddenSalamander2",
+    "join_date": "2026-04-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
     "alias": "OddKoala2",
     "join_date": "2026-04-20",
     "join_method": "unknown",
@@ -10838,6 +10847,15 @@
   {
     "alias": "MightyJay3",
     "join_date": "2026-04-20",
+    "join_method": "unknown",
+    "total_attributions": 0,
+    "open_attributions": 0,
+    "closed_attributions": 0,
+    "total_reactions_earned": 0
+  },
+  {
+    "alias": "RustyToad",
+    "join_date": "2026-04-21",
     "join_method": "unknown",
     "total_attributions": 0,
     "open_attributions": 0,
