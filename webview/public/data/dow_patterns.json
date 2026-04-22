@@ -20,11 +20,11 @@
   {
     "dow": 2,
     "label": "Wed",
-    "open": 29,
+    "open": 30,
     "closed": 1,
     "unknown": 21,
     "conflicted": 1,
-    "avg_messages": 7.5
+    "avg_messages": 7.4
   },
   {
     "dow": 3,

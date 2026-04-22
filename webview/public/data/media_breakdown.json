@@ -1,8 +1,8 @@
 [
   {
     "type": "text",
-    "total": 2019,
-    "attributed": 21
+    "total": 2020,
+    "attributed": 22
   },
   {
     "type": "photo",
@@ -11,8 +11,8 @@
   },
   {
     "type": "video_note",
-    "total": 107,
-    "attributed": 99
+    "total": 108,
+    "attributed": 100
   },
   {
     "type": "sticker",
