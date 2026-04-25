@@ -1086,7 +1086,17 @@
   },
   {
     "date": "2026-04-23",
-    "total": 13,
+    "total": 19,
     "attributed": 3
+  },
+  {
+    "date": "2026-04-24",
+    "total": 19,
+    "attributed": 3
+  },
+  {
+    "date": "2026-04-25",
+    "total": 8,
+    "attributed": 0
   }
 ]

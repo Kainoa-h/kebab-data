@@ -2314,18 +2314,44 @@
   },
   {
     "date": "2026-04-23",
-    "count": 10,
+    "count": 12,
     "members": [
       "CrispDingo",
       "CrispGecko2",
       "EagerVole",
       "GoldenFerret",
+      "KindDeer2",
       "KindFox2",
       "LivelyPuffin",
       "LuckyToad2",
+      "MistySalamander",
       "NobleGoose",
       "SilentBear2",
       "SwiftBadger"
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "count": 11,
+    "members": [
+      "BoldDrake",
+      "BoldSwift2",
+      "CalmStoat2",
+      "FierceFox",
+      "GrandJaguar",
+      "HumbleMoth",
+      "KeenBadger2",
+      "LonelyFerret",
+      "MistyStoat2",
+      "SleepyEagle4",
+      "SlickRobin"
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "count": 1,
+    "members": [
+      "SpicyJay"
     ]
   }
 ]

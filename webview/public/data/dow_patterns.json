@@ -33,23 +33,23 @@
     "closed": 2,
     "unknown": 22,
     "conflicted": 0,
-    "avg_messages": 8.2
+    "avg_messages": 8.3
   },
   {
     "dow": 4,
     "label": "Fri",
-    "open": 24,
+    "open": 25,
     "closed": 3,
     "unknown": 25,
     "conflicted": 0,
-    "avg_messages": 8.7
+    "avg_messages": 8.9
   },
   {
     "dow": 5,
     "label": "Sat",
     "open": 1,
     "closed": 7,
-    "unknown": 44,
+    "unknown": 45,
     "conflicted": 0,
     "avg_messages": 3.7
   },

@@ -1,25 +1,25 @@
 [
   {
     "emoji": "\ud83d\udd25",
-    "total_count": 882,
+    "total_count": 893,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
   {
     "emoji": "\u2764",
-    "total_count": 536,
+    "total_count": 543,
     "unique_users": 0,
     "most_active_day": "2026-04-05"
   },
   {
     "emoji": "\ud83e\udd70",
-    "total_count": 426,
+    "total_count": 427,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
   {
     "emoji": "\ud83d\ude2d",
-    "total_count": 373,
+    "total_count": 384,
     "unique_users": 0,
     "most_active_day": "2026-04-02"
   },
@@ -43,7 +43,7 @@
   },
   {
     "emoji": "\ud83e\udd23",
-    "total_count": 68,
+    "total_count": 70,
     "unique_users": 0,
     "most_active_day": "2026-01-20"
   },
@@ -55,7 +55,7 @@
   },
   {
     "emoji": "\ud83d\ude4f",
-    "total_count": 49,
+    "total_count": 52,
     "unique_users": 0,
     "most_active_day": "2026-03-23"
   },
@@ -73,13 +73,13 @@
   },
   {
     "emoji": "\ud83e\udd21",
-    "total_count": 31,
+    "total_count": 33,
     "unique_users": 0,
     "most_active_day": "2026-04-20"
   },
   {
     "emoji": "\ud83d\udd4a",
-    "total_count": 31,
+    "total_count": 32,
     "unique_users": 0,
     "most_active_day": "2025-09-30"
   },
@@ -174,6 +174,12 @@
     "most_active_day": "2025-08-21"
   },
   {
+    "emoji": "\u2764\u200d\ud83d\udd25",
+    "total_count": 7,
+    "unique_users": 0,
+    "most_active_day": "2026-04-24"
+  },
+  {
     "emoji": "\ud83d\ude31",
     "total_count": 7,
     "unique_users": 0,
@@ -187,15 +193,15 @@
   },
   {
     "emoji": "\ud83e\udd14",
-    "total_count": 5,
+    "total_count": 6,
     "unique_users": 0,
     "most_active_day": "2026-03-06"
   },
   {
-    "emoji": "\u2764\u200d\ud83d\udd25",
+    "emoji": "\ud83d\udcaf",
     "total_count": 5,
     "unique_users": 0,
-    "most_active_day": "2025-11-20"
+    "most_active_day": "2025-11-25"
   },
   {
     "emoji": "\ud83c\udfc6",
@@ -208,12 +214,6 @@
     "total_count": 4,
     "unique_users": 0,
     "most_active_day": "2025-10-24"
-  },
-  {
-    "emoji": "\ud83d\udcaf",
-    "total_count": 4,
-    "unique_users": 0,
-    "most_active_day": "2025-11-25"
   },
   {
     "emoji": "ReactionCustomEmoji(document_id=5305677962375347073)",
