@@ -174,5 +174,24 @@
   "2026-04-25": {
     "status": "unknown",
     "contributors": []
+  },
+  "2026-04-26": {
+    "status": "closed",
+    "contributors": [
+      "KindDeer"
+    ]
+  },
+  "2026-04-27": {
+    "status": "open",
+    "contributors": [
+      "MightyNewt"
+    ]
+  },
+  "2026-04-28": {
+    "status": "open",
+    "contributors": [
+      "HiddenSalamander2",
+      "QuietShrew"
+    ]
   }
 }

@@ -1,27 +1,27 @@
 [
   {
     "type": "text",
-    "total": 2081,
+    "total": 2096,
     "attributed": 22
   },
   {
     "type": "photo",
-    "total": 167,
-    "attributed": 131
+    "total": 171,
+    "attributed": 134
   },
   {
     "type": "video_note",
-    "total": 108,
-    "attributed": 100
+    "total": 109,
+    "attributed": 101
   },
   {
     "type": "sticker",
-    "total": 85,
+    "total": 90,
     "attributed": 0
   },
   {
     "type": "video",
-    "total": 33,
+    "total": 34,
     "attributed": 0
   }
 ]

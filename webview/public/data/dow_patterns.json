@@ -2,7 +2,7 @@
   {
     "dow": 0,
     "label": "Mon",
-    "open": 16,
+    "open": 17,
     "closed": 3,
     "unknown": 30,
     "conflicted": 3,
@@ -11,11 +11,11 @@
   {
     "dow": 1,
     "label": "Tue",
-    "open": 24,
+    "open": 25,
     "closed": 2,
     "unknown": 25,
     "conflicted": 1,
-    "avg_messages": 10.0
+    "avg_messages": 9.9
   },
   {
     "dow": 2,
@@ -51,15 +51,15 @@
     "closed": 7,
     "unknown": 45,
     "conflicted": 0,
-    "avg_messages": 3.7
+    "avg_messages": 3.8
   },
   {
     "dow": 6,
     "label": "Sun",
     "open": 0,
-    "closed": 2,
+    "closed": 3,
     "unknown": 50,
     "conflicted": 0,
-    "avg_messages": 2.1
+    "avg_messages": 2.2
   }
 ]

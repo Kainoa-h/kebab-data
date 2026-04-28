@@ -2349,9 +2349,29 @@
   },
   {
     "date": "2026-04-25",
-    "count": 1,
+    "count": 2,
     "members": [
+      "SilentRaven",
       "SpicyJay"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "count": 5,
+    "members": [
+      "GentleFinch",
+      "HiddenMarten2",
+      "KeenStoat",
+      "MistyGecko2",
+      "NobleLynx"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "count": 2,
+    "members": [
+      "DustyOkapi",
+      "ModestEagle2"
     ]
   }
 ]
