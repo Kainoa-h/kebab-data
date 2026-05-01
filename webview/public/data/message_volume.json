@@ -1111,7 +1111,22 @@
   },
   {
     "date": "2026-04-28",
-    "total": 8,
+    "total": 12,
+    "attributed": 3
+  },
+  {
+    "date": "2026-04-29",
+    "total": 11,
+    "attributed": 4
+  },
+  {
+    "date": "2026-04-30",
+    "total": 12,
     "attributed": 2
+  },
+  {
+    "date": "2026-05-01",
+    "total": 3,
+    "attributed": 0
   }
 ]

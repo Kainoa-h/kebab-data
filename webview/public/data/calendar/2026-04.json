@@ -191,7 +191,22 @@
     "status": "open",
     "contributors": [
       "HiddenSalamander2",
+      "QuickHeron",
       "QuietShrew"
+    ]
+  },
+  "2026-04-29": {
+    "status": "closed",
+    "contributors": [
+      "GrandSnipe",
+      "MightyJaguar"
+    ]
+  },
+  "2026-04-30": {
+    "status": "conflicted",
+    "contributors": [
+      "EarlyDingo2",
+      "TinyShrew2"
     ]
   }
 }

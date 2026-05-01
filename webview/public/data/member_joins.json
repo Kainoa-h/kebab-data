@@ -2368,10 +2368,44 @@
   },
   {
     "date": "2026-04-28",
-    "count": 2,
+    "count": 5,
     "members": [
       "DustyOkapi",
-      "ModestEagle2"
+      "FluffyCrane",
+      "ModestEagle2",
+      "PluckyDingo",
+      "RapidMoose"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "count": 4,
+    "members": [
+      "BoldKoala",
+      "BrightDrake",
+      "LivelyFinch",
+      "SilentCrow2"
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "count": 7,
+    "members": [
+      "BrightFinch2",
+      "CrispOkapi",
+      "EagerSwift",
+      "FluffySeal",
+      "GoldenPuffin",
+      "KeenShrew2",
+      "ShinyJackal"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "count": 2,
+    "members": [
+      "GrandGoose",
+      "SwiftIbis4"
     ]
   }
 ]

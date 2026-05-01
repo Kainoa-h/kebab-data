@@ -121,12 +121,22 @@
   },
   {
     "month": "2026-04",
-    "new_members": 262,
-    "total_messages": 619,
-    "attributed_messages": 70,
+    "new_members": 276,
+    "total_messages": 646,
+    "attributed_messages": 77,
     "open_days": 17,
-    "closed_days": 4,
+    "closed_days": 5,
     "unknown_days": 5,
-    "conflicted_days": 2
+    "conflicted_days": 3
+  },
+  {
+    "month": "2026-05",
+    "new_members": 2,
+    "total_messages": 3,
+    "attributed_messages": 0,
+    "open_days": 0,
+    "closed_days": 7,
+    "unknown_days": 24,
+    "conflicted_days": 0
   }
 ]
