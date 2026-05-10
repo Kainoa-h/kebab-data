@@ -2,11 +2,11 @@
   {
     "dow": 0,
     "label": "Mon",
-    "open": 17,
+    "open": 18,
     "closed": 4,
-    "unknown": 33,
+    "unknown": 32,
     "conflicted": 3,
-    "avg_messages": 5.8
+    "avg_messages": 5.9
   },
   {
     "dow": 1,
@@ -24,7 +24,7 @@
     "closed": 3,
     "unknown": 24,
     "conflicted": 1,
-    "avg_messages": 7.4
+    "avg_messages": 7.5
   },
   {
     "dow": 3,
@@ -38,20 +38,20 @@
   {
     "dow": 4,
     "label": "Fri",
-    "open": 25,
+    "open": 26,
     "closed": 4,
-    "unknown": 29,
+    "unknown": 28,
     "conflicted": 0,
-    "avg_messages": 8.2
+    "avg_messages": 8.3
   },
   {
     "dow": 5,
     "label": "Sat",
     "open": 1,
-    "closed": 8,
-    "unknown": 49,
+    "closed": 9,
+    "unknown": 48,
     "conflicted": 0,
-    "avg_messages": 3.4
+    "avg_messages": 3.5
   },
   {
     "dow": 6,
@@ -60,6 +60,6 @@
     "closed": 4,
     "unknown": 54,
     "conflicted": 0,
-    "avg_messages": 2.0
+    "avg_messages": 2.1
   }
 ]

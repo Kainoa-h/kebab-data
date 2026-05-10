@@ -2407,5 +2407,75 @@
       "GrandGoose",
       "SwiftIbis4"
     ]
+  },
+  {
+    "date": "2026-05-02",
+    "count": 3,
+    "members": [
+      "CleverCrane",
+      "SwiftBison",
+      "SwiftFinch"
+    ]
+  },
+  {
+    "date": "2026-05-03",
+    "count": 3,
+    "members": [
+      "BraveJackal2",
+      "BraveJackal3",
+      "GrumpyLynx"
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "count": 2,
+    "members": [
+      "DaringRobin",
+      "IcyDingo2"
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "count": 4,
+    "members": [
+      "IcySkunk",
+      "MistyDingo",
+      "SassyHawk",
+      "SassyOwl3"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "count": 3,
+    "members": [
+      "CalmFalcon",
+      "DustySalamander",
+      "JollySeal"
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "count": 3,
+    "members": [
+      "EagerQuail",
+      "EagerRaven2",
+      "MightyGoose"
+    ]
+  },
+  {
+    "date": "2026-05-09",
+    "count": 1,
+    "members": [
+      "SereneJaguar"
+    ]
+  },
+  {
+    "date": "2026-05-10",
+    "count": 3,
+    "members": [
+      "IcyShrew2",
+      "SilentDrake",
+      "SwiftPuffin"
+    ]
   }
 ]

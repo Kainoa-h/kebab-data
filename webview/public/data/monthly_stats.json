@@ -131,12 +131,12 @@
   },
   {
     "month": "2026-05",
-    "new_members": 2,
-    "total_messages": 3,
-    "attributed_messages": 0,
-    "open_days": 0,
-    "closed_days": 7,
-    "unknown_days": 24,
+    "new_members": 24,
+    "total_messages": 40,
+    "attributed_messages": 4,
+    "open_days": 2,
+    "closed_days": 8,
+    "unknown_days": 21,
     "conflicted_days": 0
   }
 ]
