@@ -1,4 +1,4 @@
-import type { AppData, CalendarData, User, MemberGrowth, MessageVolume, MonthlyStat, ReactionStat, DowPattern, MediaBreakdown, MemberJoin } from './types';
+import type { AppData, CalendarData, User, MemberGrowth, MessageVolume, MonthlyStat, ReactionStat, DowPattern, MediaBreakdown } from './types';
 
 async function fetchJSON<T>(url: string): Promise<T> {
   const res = await fetch(url);
@@ -19,8 +19,7 @@ export async function fetchAllData(): Promise<AppData> {
     monthlyStats,
     reactionStats,
     dowPatterns,
-    mediaBreakdown,
-    memberJoins
+    mediaBreakdown
   ] = await Promise.all([
     fetchJSON<User[]>('/data/users.json'),
     fetchJSON<MemberGrowth[]>('/data/member_growth.json'),
@@ -29,7 +28,6 @@ export async function fetchAllData(): Promise<AppData> {
     fetchJSON<ReactionStat[]>('/data/reaction_stats.json'),
     fetchJSON<DowPattern[]>('/data/dow_patterns.json'),
     fetchJSON<MediaBreakdown[]>('/data/media_breakdown.json'),
-    fetchJSON<MemberJoin[]>('/data/member_joins.json'),
   ]);
 
   // Calendar: 13 parallel fetches for 2025-04 through 2026-04
@@ -56,6 +54,5 @@ export async function fetchAllData(): Promise<AppData> {
     reactionStats,
     dowPatterns,
     mediaBreakdown,
-    memberJoins,
   };
 }

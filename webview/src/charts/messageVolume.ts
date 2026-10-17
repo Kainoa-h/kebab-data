@@ -1,5 +1,6 @@
 import { Chart } from 'chart.js/auto';
 import type { MessageVolume } from '../types';
+import { palette, onThemeChange } from '../theme';
 
 export function renderMessageVolume(canvas: HTMLCanvasElement, data: MessageVolume[]) {
   // Aggregate daily → monthly
@@ -14,36 +15,43 @@ export function renderMessageVolume(canvas: HTMLCanvasElement, data: MessageVolu
   }, {} as Record<string, { total: number, attributed: number }>);
 
   const labels = Object.keys(monthlyData).sort();
-  const attributed = labels.map(l => monthlyData[l].attributed);
-  const unattributed = labels.map(l => monthlyData[l].total - monthlyData[l].attributed);
+  const months = labels.map(l => monthlyData[l]);
+  const share = months.map(m => (m.total > 0 ? Math.round((m.attributed / m.total) * 100) : 0));
 
-  new Chart(canvas, {
-    type: 'bar',
+  const create = () => new Chart(canvas, {
+    type: 'line',
     data: {
       labels,
-      datasets: [
-        { label: 'Actually usefull messages telling us if shes open or nah', data: attributed, backgroundColor: '#10b981', stack: 'vol' },
-        { label: 'yap', data: unattributed, backgroundColor: '#6b7280', stack: 'vol' }
-      ]
+      datasets: [{
+        label: 'Messages that reported a status',
+        data: share,
+        borderColor: palette.open,
+        backgroundColor: palette.open,
+        pointRadius: 3,
+        tension: 0.2,
+      }]
     },
     options: {
-      color: '#e5e7eb',
       scales: {
-        x: { stacked: true, grid: { color: '#374151' }, ticks: { color: '#9ca3af' } },
-        y: { stacked: true, grid: { color: '#374151' }, ticks: { color: '#9ca3af' } }
+        y: { beginAtZero: true, ticks: { callback: v => `${v}%` } }
       },
       plugins: {
+        legend: { display: false },
         tooltip: {
-          backgroundColor: '#1f2937',
           callbacks: {
-            footer: (items) => {
-              const total = items.reduce((sum, i) => sum + (i.parsed.y ?? 0), 0);
-              return `Total: ${total}`;
+            label: ctx => {
+              const m = months[ctx.dataIndex];
+              return ` ${ctx.parsed.y}% useful (${m.attributed} of ${m.total} messages, the rest is yap)`;
             }
           }
-        },
-        legend: { labels: { color: '#e5e7eb' } }
+        }
       }
     }
+  });
+
+  let chart = create();
+  onThemeChange(() => {
+    chart.destroy();
+    chart = create();
   });
 }

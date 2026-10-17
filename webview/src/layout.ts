@@ -1,5 +1,7 @@
 export interface LayoutRefs {
   calendarContainer: HTMLDivElement;
+  dataThroughEl: HTMLSpanElement;
+  btnTheme: HTMLButtonElement;
   canvasDow: HTMLCanvasElement;
   canvasMemberGrowth: HTMLCanvasElement;
   canvasMonthlyOverview: HTMLCanvasElement;
@@ -19,170 +21,162 @@ export interface LayoutRefs {
   tableBodyContributors: HTMLTableSectionElement;
 }
 
+const FIRST_MONTH = '2025-04';
+const LAST_MONTH = '2026-04';
+
+function monthOptions(): string {
+  const options = ['<option value="all">All time</option>'];
+  for (let d = new Date(`${FIRST_MONTH}-01T00:00:00Z`); d.toISOString() < `${LAST_MONTH}-02`; d.setUTCMonth(d.getUTCMonth() + 1)) {
+    const value = d.toISOString().slice(0, 7);
+    const label = d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+    options.push(`<option value="${value}">${label}</option>`);
+  }
+  return options.join('');
+}
+
+function sectionHead(num: string, title: string, caption: string): string {
+  return `
+    <div class="min-w-0 flex-1 basis-72">
+      <h2 class="section-head"><span class="section-num">${num}</span>${title}</h2>
+      <p class="section-caption">${caption}</p>
+    </div>
+  `;
+}
+
+function chartSection(num: string, title: string, caption: string, canvasId: string, height = 'h-64 md:h-72'): string {
+  return `
+    <section>
+      ${sectionHead(num, title, caption)}
+      <div class="relative mt-5 ${height}"><canvas id="${canvasId}"></canvas></div>
+    </section>
+  `;
+}
+
+function legendItem(label: string, style: string): string {
+  return `<span class="flex items-center gap-2"><span class="legend-swatch" style="${style}"></span>${label}</span>`;
+}
+
 export function buildLayout(): LayoutRefs {
   const app = document.getElementById('app')!;
 
   app.innerHTML = `
-    <div class="kebab-stripe h-1.5 w-full fixed top-0 left-0 z-50"></div>
-
-    <div class="max-w-7xl mx-auto px-3 pt-8 pb-12 md:px-8 space-y-4 md:space-y-8">
-      <header class="text-center mb-4 md:mb-8 pt-2">
-        <div class="text-4xl md:text-5xl mb-2 md:mb-3">🥙</div>
-        <h1 class="text-3xl md:text-5xl font-extrabold mb-2 md:mb-3 tracking-tight">
-          <span class="text-orange-400">Kebab</span>
-          <span class="text-gray-100"> Tracker</span>
-          <span class="text-yellow-400"> Dashboard</span>
+    <div class="max-w-6xl mx-auto px-4 md:px-8 pt-6 pb-16">
+      <header class="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b-[3px] border-ink pb-3">
+        <h1 class="font-display uppercase text-4xl md:text-5xl leading-none tracking-wide">
+          <span aria-hidden="true">🥙</span> Kebab Tracker
         </h1>
-        <p class="text-gray-400 text-base md:text-lg">Is it open? Was it open? Will it ever be open again? Only one way to find out. 🔪</p>
-        <div class="mt-3 flex justify-center gap-2 text-xl md:text-2xl select-none">
-          <span>🌯</span><span>🧅</span><span>🔥</span><span>🧅</span><span>🌯</span>
+        <div class="flex items-center gap-3">
+          <p class="text-xs uppercase tracking-wider text-ink-soft">
+            Data through <span id="data-through" class="font-bold text-ink">…</span>
+          </p>
+          <button id="btn-theme" class="btn btn-icon"></button>
         </div>
       </header>
+      <p class="mt-3 text-sm text-ink-soft">Is it open? Was it open? Will it ever be open again?</p>
 
-      <section class="card">
-        <h2 class="text-xl font-semibold mb-4">🗓️ Store Status Calendar</h2>
-        <div class="mb-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
-          <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-open)"></span> Open</div>
-          <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-closed)"></span> Closed</div>
-          <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm" style="background-color: var(--color-unknown)"></span> Unknown (no reports)</div>
-          <div class="flex items-center gap-2"><span class="w-3 h-3 inline-block rounded-sm border border-gray-600" style="background-color: var(--color-no-data)"></span> Future / no data</div>
-        </div>
-        <div class="overflow-x-auto">
-          <div id="cal-heatmap-container" class="flex justify-center"></div>
-        </div>
-      </section>
+      <div id="streak-stats" class="mt-8 md:mt-10"></div>
 
-      <section class="card">
-        <div class="flex flex-wrap justify-between items-center gap-3 mb-4">
-          <h2 class="text-xl font-semibold">📊 Activity Overview</h2>
-          <div class="flex items-center gap-2 flex-wrap">
-            <button id="btn-overview-prev" class="bg-gray-800 hover:bg-orange-900/40 hover:border-orange-600 border border-gray-700 text-white text-sm rounded px-3 py-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&larr; Prev</button>
-            <button id="btn-overview-next" class="bg-gray-800 hover:bg-orange-900/40 hover:border-orange-600 border border-gray-700 text-white text-sm rounded px-3 py-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed transition-colors">Next &rarr;</button>
-            <select id="select-overview-zoom" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none ml-2">
-              <option value="monthly">Monthly</option>
-              <option value="weekly">Weekly</option>
-            </select>
+      <div class="mt-16 md:mt-20 space-y-16 md:space-y-20">
+        <section>
+          ${sectionHead('01', 'The calendar', 'Every day since April 2025. Hover a square to see who reported it.')}
+          <div class="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs uppercase tracking-wider text-ink-soft">
+            ${legendItem('Open', 'background: var(--color-open)')}
+            ${legendItem('Closed', 'background: var(--color-closed)')}
+            ${legendItem('No reports', 'background: var(--color-unknown)')}
+            ${legendItem('Sunday off', 'background: repeating-linear-gradient(45deg, var(--color-paper-deep) 0 2px, var(--color-ink-faint) 2px 3px)')}
           </div>
-        </div>
-        <div class="w-full h-[280px] md:h-[400px]">
-          <canvas id="canvas-monthly-overview"></canvas>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2 class="text-xl font-semibold mb-4">🔥 Kebab Streaks</h2>
-        <div id="streak-stats"></div>
-      </section>
-
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">📅 Day of Week Patterns</h2>
-          <canvas id="canvas-dow"></canvas>
+          <div id="cal-scroll" class="mt-5 overflow-x-auto pb-3">
+            <div id="cal-heatmap-container" class="w-max mx-auto"></div>
+          </div>
         </section>
 
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">📈 Member Growth</h2>
-          <canvas id="canvas-member-growth"></canvas>
-        </section>
-
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">💬 Message Volume</h2>
-          <canvas id="canvas-message-volume"></canvas>
-        </section>
-
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">🧑‍🤝‍🧑 New Members per Month</h2>
-          <canvas id="canvas-new-members"></canvas>
-        </section>
-
-      </div>
-
-      <section class="card">
-        <div class="flex flex-wrap justify-between items-center gap-3 mb-4">
-          <h2 class="text-xl font-semibold">🏆 Contributor Rankings</h2>
-          <div class="flex items-center gap-2 flex-wrap">
-            <div class="flex items-center gap-1">
-              <button id="btn-contributor-month-prev" class="bg-gray-800 hover:bg-orange-900/40 hover:border-orange-600 border border-gray-700 text-white text-sm rounded px-3 py-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&larr;</button>
-              <select id="select-contributor-month" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none">
-                <option value="all">All time</option>
-                <option value="2025-04">April 2025</option>
-                <option value="2025-05">May 2025</option>
-                <option value="2025-06">June 2025</option>
-                <option value="2025-07">July 2025</option>
-                <option value="2025-08">August 2025</option>
-                <option value="2025-09">September 2025</option>
-                <option value="2025-10">October 2025</option>
-                <option value="2025-11">November 2025</option>
-                <option value="2025-12">December 2025</option>
-                <option value="2026-01">January 2026</option>
-                <option value="2026-02">February 2026</option>
-                <option value="2026-03">March 2026</option>
-                <option value="2026-04">April 2026</option>
+        <section>
+          <div class="flex flex-wrap items-end gap-x-6 gap-y-4">
+            ${sectionHead('02', 'Open, closed, or nobody checked', 'Weekdays per period by reported status. Grey means nobody checked.')}
+            <div class="flex flex-wrap items-center gap-2">
+              <div class="btn-group">
+                <button id="btn-overview-prev" class="btn" aria-label="Earlier period">‹ Earlier</button>
+                <button id="btn-overview-next" class="btn" aria-label="Later period">Later ›</button>
+              </div>
+              <select id="select-overview-zoom" class="control" aria-label="Group by">
+                <option value="monthly">Monthly</option>
+                <option value="weekly">Weekly</option>
               </select>
-              <button id="btn-contributor-month-next" class="bg-gray-800 hover:bg-orange-900/40 hover:border-orange-600 border border-gray-700 text-white text-sm rounded px-3 py-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&#8250;</button>
             </div>
-            <select id="select-contributor-sort" class="bg-gray-800 border border-gray-700 text-white text-sm rounded px-2 py-1 outline-none">
-              <option value="total" selected>Sort by: Total</option>
-              <option value="open">Sort by: Open</option>
-              <option value="closed">Sort by: Closed</option>
-              <option value="reactions">Sort by: Reactions</option>
-            </select>
           </div>
+          <div class="relative mt-5 h-[300px] md:h-[420px]">
+            <canvas id="canvas-monthly-overview"></canvas>
+          </div>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-x-12 lg:gap-y-20">
+          ${chartSection('03', 'Best day to go', 'Of the days someone checked, how often each weekday was open. n is the number of reported days. Sundays are always off.', 'canvas-dow')}
+          ${chartSection('04', 'The congregation', 'Total group members over time.', 'canvas-member-growth')}
+          ${chartSection('05', 'Signal vs yap', 'Share of messages each month that actually reported a status. The rest is yap. Hover for counts.', 'canvas-message-volume')}
+          ${chartSection('06', 'New cultists', 'People who joined each month.', 'canvas-new-members')}
         </div>
-        <div class="overflow-x-auto max-h-[800px] overflow-y-auto relative">
-          <table class="w-full text-left border-collapse text-sm">
-            <thead class="sticky top-0 bg-gray-900 z-10 shadow-[0_1px_0_0_#374151]">
-              <tr class="border-b border-gray-700">
-                <th class="py-2 px-2 md:px-4 text-orange-400/80 font-semibold">#</th>
-                <th class="py-2 px-2 md:px-4 text-orange-400/80 font-semibold">Alias</th>
-                <th class="py-2 px-2 md:px-4 text-orange-400/80 font-semibold">Open</th>
-                <th class="py-2 px-2 md:px-4 text-orange-400/80 font-semibold">Closed</th>
-                <th class="py-2 px-2 md:px-4 text-orange-400/80 font-semibold">Total</th>
-                <th class="py-2 px-2 md:px-4 text-orange-400/80 font-semibold">React.</th>
-              </tr>
-            </thead>
-            <tbody id="tbody-contributors">
-            </tbody>
-          </table>
+
+        <section>
+          <div class="flex flex-wrap items-end gap-x-6 gap-y-4">
+            ${sectionHead('07', 'Hall of fame', 'Who reports the status most. Hover a name for their join date.')}
+            <div class="flex flex-wrap items-center gap-2">
+              <div class="btn-group">
+                <button id="btn-contributor-month-prev" class="btn btn-icon" aria-label="Previous month">‹</button>
+                <select id="select-contributor-month" class="control border-l-0" aria-label="Month">${monthOptions()}</select>
+                <button id="btn-contributor-month-next" class="btn btn-icon" aria-label="Next month">›</button>
+              </div>
+              <select id="select-contributor-sort" class="control" aria-label="Sort by">
+                <option value="total" selected>Sort: Total</option>
+                <option value="open">Sort: Open</option>
+                <option value="closed">Sort: Closed</option>
+                <option value="reactions">Sort: Reactions</option>
+              </select>
+            </div>
+          </div>
+          <div class="mt-5 overflow-auto max-h-[520px] border-y-[3px] border-ink">
+            <table class="w-full text-left border-collapse text-sm">
+              <thead class="sticky top-0 bg-paper z-10 text-[11px] uppercase tracking-wider text-ink-soft">
+                <tr class="border-b-2 border-ink">
+                  <th class="py-2 px-1.5 md:px-3 font-bold w-8 md:w-12">No.</th>
+                  <th class="py-2 px-1.5 md:px-3 font-bold">Alias</th>
+                  <th class="py-2 px-1.5 md:px-3 font-bold text-right">Total</th>
+                  <th class="py-2 px-1.5 md:px-3 font-bold text-right">Open</th>
+                  <th class="py-2 px-1.5 md:px-3 font-bold text-right">Closed</th>
+                  <th class="py-2 px-1.5 md:px-3 font-bold text-right"><span class="sm:hidden">♥</span><span class="hidden sm:inline">Reactions</span></th>
+                </tr>
+              </thead>
+              <tbody id="tbody-contributors"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-x-12 lg:gap-y-20">
+          ${chartSection('08', 'Reaction menu', 'The 15 most used reactions.', 'canvas-reaction-leaderboard')}
+          ${chartSection('09', 'Crowd favourites', 'The 15 members who received the most reactions.', 'canvas-user-reactions', 'h-96')}
+          ${chartSection('10', 'Media efficiency', 'Share of each message type that reported a status. n is how many were sent.', 'canvas-media-efficiency')}
         </div>
-      </section>
-
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">😂 Reaction Leaderboard</h2>
-          <canvas id="canvas-reaction-leaderboard"></canvas>
-        </section>
-
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">⭐ Top Users by Reactions</h2>
-          <canvas id="canvas-user-reactions"></canvas>
-        </section>
-
-        <section class="card">
-          <h2 class="text-xl font-semibold mb-4">🖼️ Media Efficiency</h2>
-          <canvas id="canvas-media-efficiency"></canvas>
-        </section>
       </div>
 
-      <footer class="text-center text-gray-600 text-sm pt-4">
-        🥙 powered by kebab energy &amp; questionable data quality 🥙
+      <footer class="mt-20 border-t-2 border-dashed border-ink-faint pt-4 flex flex-wrap justify-between gap-2 text-xs uppercase tracking-wider text-ink-soft">
+        <span>Powered by kebab energy</span>
+        <span>&amp; questionable data quality</span>
       </footer>
     </div>
 
     <button id="btn-deanon"
-      class="fixed top-3 right-4 z-[60] w-7 h-7 rounded-full bg-gray-800/60 hover:bg-gray-700 border border-gray-700/50 text-gray-500 hover:text-gray-200 text-xs flex items-center justify-center transition-all backdrop-blur-sm cursor-pointer"
-      title="De-anonymise aliases">?</button>
+      class="fixed bottom-4 right-4 z-[60] w-10 h-10 bg-paper border-2 border-ink text-ink font-bold flex items-center justify-center cursor-pointer hover:bg-ink hover:text-paper transition-colors shadow-[3px_3px_0_var(--color-ink)]"
+      title="Reveal real names" aria-label="Reveal real names">?</button>
 
-    <div id="modal-deanon"
-      class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm">
-      <div class="bg-gray-900 border border-gray-700 rounded-xl p-6 max-w-sm w-full mx-4 shadow-2xl">
-        <h3 class="text-lg font-semibold mb-1">De-anonymise Aliases</h3>
-        <p class="text-gray-400 text-sm mb-4">Upload your <code class="text-orange-400 text-xs">anon_map.json</code> to reveal real usernames throughout the dashboard.</p>
+    <div id="modal-deanon" role="dialog" aria-modal="true" aria-labelledby="deanon-title"
+      class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/60 p-4">
+      <div class="bg-paper border-[3px] border-ink p-6 max-w-sm w-full shadow-[8px_8px_0_var(--color-tag)]">
+        <h3 id="deanon-title" class="font-display uppercase text-2xl tracking-wide mb-2">Reveal real names</h3>
+        <p class="text-ink-soft text-sm mb-4">Upload your <code class="bg-tag text-on-tag px-1 font-bold">anon_map.json</code> to swap aliases for real usernames. The file never leaves your browser.</p>
         <input type="file" id="input-deanon" accept=".json"
-          class="block w-full text-sm text-gray-400 file:mr-3 file:py-1.5 file:px-3 file:rounded file:border-0 file:text-sm file:bg-gray-800 file:text-gray-300 hover:file:bg-gray-700 cursor-pointer mb-3">
-        <div id="deanon-status" class="text-xs text-gray-500 min-h-[1.25rem] mb-4"></div>
+          class="block w-full text-xs text-ink-soft file:mr-3 file:py-2 file:px-3 file:border-2 file:border-ink file:bg-paper file:text-ink file:font-bold file:uppercase file:text-xs hover:file:bg-ink hover:file:text-paper cursor-pointer mb-3">
+        <div id="deanon-status" class="text-xs text-ink-soft min-h-[1.25rem] mb-4"></div>
         <div class="flex justify-end">
-          <button id="btn-deanon-close" class="text-sm text-gray-500 hover:text-gray-200 transition-colors">Close</button>
+          <button id="btn-deanon-close" class="btn">Close</button>
         </div>
       </div>
     </div>
@@ -190,6 +184,8 @@ export function buildLayout(): LayoutRefs {
 
   return {
     calendarContainer: document.getElementById('cal-heatmap-container') as HTMLDivElement,
+    dataThroughEl: document.getElementById('data-through') as HTMLSpanElement,
+    btnTheme: document.getElementById('btn-theme') as HTMLButtonElement,
     canvasDow: document.getElementById('canvas-dow') as HTMLCanvasElement,
     canvasMemberGrowth: document.getElementById('canvas-member-growth') as HTMLCanvasElement,
     canvasMonthlyOverview: document.getElementById('canvas-monthly-overview') as HTMLCanvasElement,

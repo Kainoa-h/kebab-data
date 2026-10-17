@@ -37,16 +37,16 @@ export function initDeAnonUI(): void {
     const file = input.files?.[0];
     if (!file) return;
     status.textContent = 'Loading…';
-    status.className = 'text-xs text-gray-400 min-h-[1.25rem] mb-4';
+    status.className = 'text-xs text-ink-soft min-h-[1.25rem] mb-4';
     try {
       const text = await file.text();
       const data = JSON.parse(text);
       const count = loadDeAnonMap(data);
       status.textContent = `✓ Loaded ${count} aliases`;
-      status.className = 'text-xs text-green-500 min-h-[1.25rem] mb-4';
+      status.className = 'text-xs text-open font-bold min-h-[1.25rem] mb-4';
     } catch {
       status.textContent = '✗ Invalid file — expected anon_map.json format';
-      status.className = 'text-xs text-red-500 min-h-[1.25rem] mb-4';
+      status.className = 'text-xs text-closed font-bold min-h-[1.25rem] mb-4';
     }
   });
 }

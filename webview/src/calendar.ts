@@ -4,11 +4,10 @@ import CalHeatmap from 'cal-heatmap';
 import Tooltip from 'cal-heatmap/plugins/Tooltip';
 import 'cal-heatmap/cal-heatmap.css';
 import type { CalendarData, DayStatus } from './types';
-import { STATUS_COLORS, normalizeStatus } from './types';
+import { normalizeStatus } from './types';
 import { toDateStrUTC8 } from './utils';
 import { deAnon } from './deanon';
-
-const COLOR_NO_DATA = '#1e293b';
+import { palette, onThemeChange } from './theme';
 
 export function renderCalendarHeatmap(containerSelector: string, calendarData: CalendarData) {
   const start = new Date('2025-04-01');
@@ -63,11 +62,13 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
 
   const dataMap = new Map(data.map(d => [d.date, d]));
 
-  const cal = new CalHeatmap();
-  cal.paint({
+  let cal = new CalHeatmap();
+
+  const paint = () => cal.paint({
     itemSelector: containerSelector,
+    animationDuration: 0,
     domain: { type: 'month' },
-    subDomain: { type: 'day', width: 14, height: 14, radius: 2 },
+    subDomain: { type: 'day', width: 14, height: 14, gutter: 3, radius: 0 },
     range: 13,
     date: { start: new Date('2025-04-01') },
     data: {
@@ -80,11 +81,11 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
         type: 'ordinal',
         domain: [0, 1, 2, 3, 4],
         range: [
-          STATUS_COLORS.unknown, // 0 = unknown (no reports)
-          STATUS_COLORS.open,    // 1 = open
-          STATUS_COLORS.closed,  // 2 = closed
-          COLOR_NO_DATA,         // 3 = future / outside data range
-          'url(#sunday-stripes)' // 4 = default sunday (jiejie's rest day)
+          palette.unknown,        // 0 = unknown (no reports)
+          palette.open,           // 1 = open
+          palette.closed,         // 2 = closed
+          'transparent',          // 3 = future / outside data range
+          'url(#sunday-stripes)'  // 4 = default sunday (jiejie's rest day)
         ]
       }
     }
@@ -123,10 +124,20 @@ export function renderCalendarHeatmap(containerSelector: string, calendarData: C
     const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
     defs.innerHTML = `
       <pattern id="sunday-stripes" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
-        <rect width="4" height="4" fill="${COLOR_NO_DATA}"/>
-        <line x1="0" y1="0" x2="4" y2="4" stroke="#4b5563" stroke-width="1.2"/>
+        <rect width="4" height="4" fill="${palette.paperDeep}"/>
+        <line x1="0" y1="0" x2="4" y2="4" stroke="${palette.inkFaint}" stroke-width="1.2"/>
       </pattern>
     `;
     svg.insertBefore(defs, svg.firstChild);
+
+    const scroller = document.getElementById('cal-scroll');
+    if (scroller) scroller.scrollLeft = scroller.scrollWidth;
+  });
+
+  paint();
+  onThemeChange(async () => {
+    await cal.destroy();
+    cal = new CalHeatmap();
+    paint();
   });
 }

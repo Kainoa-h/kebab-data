@@ -1,6 +1,7 @@
 import { Chart } from 'chart.js/auto';
 import type { User } from '../types';
 import { deAnon, onDeAnonChange } from '../deanon';
+import { palette, onThemeChange } from '../theme';
 
 export function renderUserReactions(canvas: HTMLCanvasElement, users: User[]) {
   const top15 = [...users]
@@ -16,19 +17,15 @@ export function renderUserReactions(canvas: HTMLCanvasElement, users: User[]) {
       data: {
         labels: top15.map(d => deAnon(d.alias)),
         datasets: [
-          { label: 'Reactions Earned', data: top15.map(d => d.total_reactions_earned || 0), backgroundColor: '#ec4899' }
+          { label: 'Reactions Earned', data: top15.map(d => d.total_reactions_earned || 0), backgroundColor: palette.ink }
         ]
       },
       options: {
         indexAxis: 'y',
-        color: '#e5e7eb',
-        scales: {
-          x: { grid: { color: '#374151' } },
-          y: { grid: { color: '#374151' } }
-        },
+        interaction: { axis: 'y' },
+        scales: { y: { ticks: { autoSkip: false } } },
         plugins: {
-          tooltip: { backgroundColor: '#1f2937' },
-          legend: { labels: { color: '#e5e7eb' } }
+          legend: { display: false }
         }
       }
     });
@@ -36,8 +33,10 @@ export function renderUserReactions(canvas: HTMLCanvasElement, users: User[]) {
 
   chart = create();
 
-  onDeAnonChange(() => {
+  const redraw = () => {
     chart?.destroy();
     chart = create();
-  });
+  };
+  onDeAnonChange(redraw);
+  onThemeChange(redraw);
 }

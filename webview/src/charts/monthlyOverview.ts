@@ -1,7 +1,8 @@
 import { Chart } from 'chart.js/auto';
-import type { CalendarData, MemberJoin, DayStatus } from '../types';
-import { STATUS_COLORS, normalizeStatus } from '../types';
+import type { CalendarData, DayStatus } from '../types';
+import { normalizeStatus } from '../types';
 import { toDateStrUTC8 } from '../utils';
+import { palette, onThemeChange } from '../theme';
 
 function getMonday(dateStr: string) {
   const d = new Date(dateStr);
@@ -16,17 +17,10 @@ export function renderMonthlyOverview(
   selectElement: HTMLSelectElement,
   btnPrev: HTMLButtonElement,
   btnNext: HTMLButtonElement,
-  calendarData: CalendarData,
-  memberJoins: MemberJoin[]
+  calendarData: CalendarData
 ) {
   let chart: Chart | null = null;
   let currentPage = 0;
-
-  // Pre-process member joins into a map for O(1) lookup
-  const joinsMap = new Map<string, number>();
-  for (const join of memberJoins) {
-    joinsMap.set(join.date, join.count);
-  }
 
   function updateChart() {
     const zoom = selectElement.value; // 'monthly', 'weekly'
@@ -39,7 +33,6 @@ export function renderMonthlyOverview(
     
     // Ordered labels and aggregations
     const groupedData = new Map<string, {
-      new_members: number;
       open_days: number;
       closed_days: number;
       unknown_days: number;
@@ -58,14 +51,11 @@ export function renderMonthlyOverview(
 
       if (!groupedData.has(groupKey)) {
         groupedData.set(groupKey, {
-          new_members: 0, open_days: 0, closed_days: 0, unknown_days: 0
+          open_days: 0, closed_days: 0, unknown_days: 0
         });
       }
 
       const group = groupedData.get(groupKey)!;
-
-      // Member joins
-      group.new_members += joinsMap.get(dateStr) || 0;
 
       // Skip Sundays from status counts
       if (d.getDay() === 0) continue;
@@ -113,35 +103,15 @@ export function renderMonthlyOverview(
       data: {
         labels: pagedLabels,
         datasets: [
-          { 
-            type: 'line', 
-            label: 'New Members', 
-            data: pagedData.map(d => d.new_members), 
-            borderColor: '#8b5cf6', 
-            yAxisID: 'y1',
-            tension: 0.1,
-            pointRadius: 3,
-            borderWidth: 2
-          },
-          { label: 'Open', data: pagedData.map(d => d.open_days), backgroundColor: STATUS_COLORS.open },
-          { label: 'Closed', data: pagedData.map(d => d.closed_days), backgroundColor: STATUS_COLORS.closed },
-          { label: 'Unknown', data: pagedData.map(d => d.unknown_days), backgroundColor: STATUS_COLORS.unknown },
+          { label: 'Open', data: pagedData.map(d => d.open_days), backgroundColor: palette.open },
+          { label: 'Closed', data: pagedData.map(d => d.closed_days), backgroundColor: palette.closed },
+          { label: 'Unknown', data: pagedData.map(d => d.unknown_days), backgroundColor: palette.unknown },
         ]
       },
       options: {
-        color: '#e5e7eb',
-        maintainAspectRatio: false,
         scales: {
-          x: { 
-            stacked: true, 
-            grid: { color: '#374151' }
-          },
-          y: { stacked: true, grid: { color: '#374151' } },
-          y1: { position: 'right', grid: { drawOnChartArea: false } }
-        },
-        plugins: {
-          tooltip: { backgroundColor: '#1f2937' },
-          legend: { labels: { color: '#e5e7eb' } }
+          x: { stacked: true },
+          y: { stacked: true, title: { display: true, text: 'Weekdays' } }
         }
       }
     });
@@ -149,6 +119,7 @@ export function renderMonthlyOverview(
 
   // Initial render
   updateChart();
+  onThemeChange(updateChart);
 
   // Listen to select change
   selectElement.addEventListener('change', () => {

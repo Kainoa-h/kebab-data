@@ -4,13 +4,6 @@ export function normalizeStatus(s: DayStatus): DayStatus {
   return s === 'conflicted' ? 'open' : s;
 }
 
-export const STATUS_COLORS: Record<DayStatus, string> = {
-  open: '#22c55e',
-  closed: '#ef4444',
-  conflicted: '#eab308',
-  unknown: '#6b7280',
-};
-
 export interface User {
   alias: string;
   join_date: string | null;
@@ -27,12 +20,6 @@ export interface DayRecord {
 }
 
 export type CalendarData = Record<string, DayRecord>;
-
-export interface MemberJoin {
-  date: string;
-  count: number;
-  members: string[];
-}
 
 export interface MemberGrowth {
   date: string;
@@ -88,5 +75,4 @@ export interface AppData {
   reactionStats: ReactionStat[];
   dowPatterns: DowPattern[];
   mediaBreakdown: MediaBreakdown[];
-  memberJoins: MemberJoin[];
 }

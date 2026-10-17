@@ -13,14 +13,23 @@ import { renderContributorTable } from './table';
 import { renderStreaks } from './stats/streaks';
 import { renderNewMembersPerMonth } from './charts/newMembersPerMonth';
 import { initDeAnonUI } from './deanon';
+import { applyChartTheme } from './charts/theme';
+import { initTheme, onThemeChange } from './theme';
 
 async function init() {
   const refs = buildLayout();
+  initTheme(refs.btnTheme);
+  applyChartTheme();
+  onThemeChange(applyChartTheme);
   initDeAnonUI();
 
   try {
     const data = await fetchAllData();
-    
+
+    const lastDate = Object.keys(data.calendar).sort().at(-1);
+    refs.dataThroughEl.textContent = lastDate
+      ? new Date(`${lastDate}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' })
+      : 'no data';
     renderCalendarHeatmap('#cal-heatmap-container', data.calendar);
     renderStreaks(refs.streakStatsEl, data.calendar);
     renderNewMembersPerMonth(refs.canvasNewMembers, data.monthlyStats);
@@ -31,8 +40,7 @@ async function init() {
       refs.selectOverviewZoom,
       refs.btnOverviewPrev,
       refs.btnOverviewNext,
-      data.calendar,
-      data.memberJoins
+      data.calendar
     );
     renderMessageVolume(refs.canvasMessageVolume, data.messageVolume);
     renderMediaEfficiency(refs.canvasMediaEfficiency, data.mediaBreakdown);

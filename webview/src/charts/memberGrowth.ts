@@ -1,5 +1,6 @@
 import { Chart } from 'chart.js/auto';
 import type { MemberGrowth } from '../types';
+import { palette, onThemeChange } from '../theme';
 
 const crosshairPlugin = {
   id: 'crosshair',
@@ -14,7 +15,7 @@ const crosshairPlugin = {
     ctx.moveTo(x, yScale.top);
     ctx.lineTo(x, yScale.bottom);
     ctx.lineWidth = 1.5;
-    ctx.strokeStyle = 'rgba(251, 146, 60, 0.7)';
+    ctx.strokeStyle = palette.ink;
     ctx.setLineDash([5, 4]);
     ctx.stroke();
     ctx.restore();
@@ -22,7 +23,7 @@ const crosshairPlugin = {
 };
 
 export function renderMemberGrowth(canvas: HTMLCanvasElement, data: MemberGrowth[]) {
-  new Chart(canvas, {
+  const create = () => new Chart(canvas, {
     type: 'line',
     plugins: [crosshairPlugin],
     data: {
@@ -30,38 +31,35 @@ export function renderMemberGrowth(canvas: HTMLCanvasElement, data: MemberGrowth
       datasets: [{
         label: 'Total Members',
         data: data.map(d => d.count),
-        borderColor: '#3b82f6',
-        backgroundColor: 'rgba(59, 130, 246, 0.15)',
+        borderColor: palette.ink,
+        backgroundColor: 'rgba(245, 192, 42, 0.35)',
         fill: true,
         pointRadius: 0,
         pointHoverRadius: 5,
-        pointHoverBackgroundColor: '#f97316',
-        pointHoverBorderColor: '#fff',
+        pointHoverBackgroundColor: palette.ink,
+        pointHoverBorderColor: palette.ink,
         pointHoverBorderWidth: 2,
         stepped: true
       }]
     },
     options: {
-      color: '#e5e7eb',
-      interaction: {
-        mode: 'index',
-        intersect: false
-      },
       scales: {
-        x: { grid: { color: '#374151' }, ticks: { color: '#9ca3af', maxTicksLimit: 8 } },
-        y: { grid: { color: '#374151' }, ticks: { color: '#9ca3af' } }
+        x: { ticks: { maxTicksLimit: 8 } }
       },
       plugins: {
+        legend: { display: false },
         tooltip: {
-          backgroundColor: '#1f2937',
-          borderColor: '#f97316',
-          borderWidth: 1,
           callbacks: {
             label: (ctx) => ` ${ctx.parsed.y} members`
           }
-        },
-        legend: { labels: { color: '#e5e7eb' } }
+        }
       }
     }
+  });
+
+  let chart = create();
+  onThemeChange(() => {
+    chart.destroy();
+    chart = create();
   });
 }

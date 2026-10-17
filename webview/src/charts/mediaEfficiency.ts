@@ -1,34 +1,65 @@
 import { Chart } from 'chart.js/auto';
+import type { Plugin } from 'chart.js';
 import type { MediaBreakdown } from '../types';
+import { palette, onThemeChange } from '../theme';
+
+const barValueLabels: Plugin<'bar'> = {
+  id: 'barValueLabels',
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    const meta = chart.getDatasetMeta(0);
+    const values = chart.data.datasets[0].data as number[];
+    ctx.save();
+    ctx.font = `bold 11px ${Chart.defaults.font.family}`;
+    ctx.fillStyle = palette.ink;
+    ctx.textBaseline = 'middle';
+    meta.data.forEach((bar, i) => {
+      ctx.fillText(`${values[i]}%`, bar.x + 6, bar.y);
+    });
+    ctx.restore();
+  },
+};
 
 export function renderMediaEfficiency(canvas: HTMLCanvasElement, data: MediaBreakdown[]) {
   // Sorted by ratio
-  const sortedData = [...data].sort((a, b) => {
-    const ratioA = a.total > 0 ? a.attributed / a.total : 0;
-    const ratioB = b.total > 0 ? b.attributed / b.total : 0;
-    return ratioB - ratioA;
-  });
+  const rows = data
+    .filter(d => d.total > 0)
+    .map(d => ({ ...d, share: Math.round((d.attributed / d.total) * 1000) / 10 }))
+    .sort((a, b) => b.share - a.share);
 
-  new Chart(canvas, {
+  const create = () => new Chart(canvas, {
     type: 'bar',
+    plugins: [barValueLabels],
     data: {
-      labels: sortedData.map(d => d.type),
+      labels: rows.map(d => `${d.type} (n=${d.total})`),
       datasets: [
-        { label: 'Total', data: sortedData.map(d => d.total), backgroundColor: '#4b5563' },
-        { label: 'Attributed', data: sortedData.map(d => d.attributed), backgroundColor: '#3b82f6' }
+        { label: 'Reported a status', data: rows.map(d => d.share), backgroundColor: palette.tag, borderColor: palette.ink, borderWidth: 1.5 }
       ]
     },
     options: {
       indexAxis: 'y',
-      color: '#e5e7eb',
+      interaction: { axis: 'y' },
+      layout: { padding: { right: 48 } },
       scales: {
-        x: { grid: { color: '#374151' } },
-        y: { grid: { color: '#374151' } }
+        x: { beginAtZero: true, max: 100, ticks: { callback: v => `${v}%` } }
       },
       plugins: {
-        tooltip: { backgroundColor: '#1f2937' },
-        legend: { labels: { color: '#e5e7eb' } }
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const row = rows[ctx.dataIndex];
+              return ` ${row.share}% reported a status (${row.attributed} of ${row.total})`;
+            }
+          }
+        }
       }
     }
+  });
+
+  let chart = create();
+  onThemeChange(() => {
+    chart.destroy();
+    chart = create();
   });
 }
